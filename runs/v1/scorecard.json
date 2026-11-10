@@ -1,0 +1,16 @@
+{
+  "score": 92.2,
+  "metrics": {
+    "extraction": 0.9,
+    "extraction_clean": 1.0,
+    "extraction_scanned": 0.45,
+    "status": 0.9487179487179487,
+    "exceptions": 0.9166666666666666,
+    "exception_precision": 1.0,
+    "exception_recall": 0.8461538461538461,
+    "payment_matching": 0.9487179487179487,
+    "unmatched_payments": 0.6666666666666666,
+    "traceable_numbers": 1.0
+  },
+  "judge": null
+}
