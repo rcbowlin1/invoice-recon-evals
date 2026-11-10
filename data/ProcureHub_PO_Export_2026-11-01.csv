@@ -1,0 +1,61 @@
+PO Number,PO Date,Supplier ID,Supplier Name,Line,Item Code,Item Description,Qty Ordered,UOM,Unit Price,Line Total,PO Total,Currency,PO Status,Buyer,Cost Center,Approved By
+PO-10403,2026-08-31,V-1001,Bristlecone Packaging Co.,1,CB-1812,Corrugated shipper 18x12x10,1000,EA,2.18,2180.00,3181.00,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10403,2026-08-31,V-1001,Bristlecone Packaging Co.,2,VF-200,"Void fill paper, 1,000 ft roll",26,EA,38.50,1001.00,3181.00,USD,Received,R. Bowman,CC-310 Warehouse,S. Patel
+PO-10407,2026-09-13,V-1002,Halvorsen Industrial Supply,1,PL-4048,"Pallet jack, 5,500 lb capacity",6,EA,389.00,2334.00,2968.20,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10407,2026-09-13,V-1002,Halvorsen Industrial Supply,2,SF-VEST,"Hi-vis safety vest, class 2",16,EA,8.40,134.40,2968.20,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10407,2026-09-13,V-1002,Halvorsen Industrial Supply,3,GL-NIT-L,"Nitrile gloves, large, box of 100",42,EA,11.90,499.80,2968.20,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10410,2026-09-16,V-1003,Tidewater Freight Solutions LLC,1,LIFT,Liftgate delivery,5,EA,95.00,475.00,475.00,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10412,2026-09-11,V-1004,Juniper & Ash Office Supply,1,PPR-LTR,"Copy paper, letter, case of 10 reams",41,EA,49.99,2049.59,3501.59,USD,Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10412,2026-09-11,V-1004,Juniper & Ash Office Supply,2,TNR-58A,"Toner cartridge, black, high yield",11,EA,132.00,1452.00,3501.59,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10414,2026-09-18,V-1005,"Redfern Electrical Components, Inc.",1,WR-12G-500,"THHN wire 12 AWG, 500 ft spool",10,EA,141.00,1410.00,1410.00,USD,Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10416,2026-08-22,V-1006,Kestrel Print Studio,1,CAT-24P,"Product catalog, 24 pp, saddle stitch",2000,EA,2.35,4700.00,4700.00,USD,Received,M. Okafor,CC-310 Warehouse,S. Patel
+PO-10418,2026-09-06,V-1007,Ironvale Fasteners Corp.,1,NUT-38,"Nylon lock nut 3/8-16, box of 100",48,EA,7.95,381.60,1257.20,USD,Partially Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10418,2026-09-06,V-1007,Ironvale Fasteners Corp.,2,WSH-38F,"Flat washer 3/8, box of 250",44,EA,6.10,268.40,1257.20,USD,Partially Received,J. Lindqvist,CC-310 Warehouse,S. Patel
+PO-10418,2026-09-06,V-1007,Ironvale Fasteners Corp.,3,HX-38-16,"Hex bolt 3/8-16 x 1.5, zinc, box of 100",33,EA,18.40,607.20,1257.20,USD,Partially Received,R. Bowman,CC-310 Warehouse,S. Patel
+PO-10421,2026-09-06,V-1008,Lumen Ridge Lighting,1,PND-11,"Pendant lamp, brass, 11 in",8,EA,42.00,336.00,628.00,USD,Received,M. Okafor,CC-310 Warehouse,S. Patel
+PO-10421,2026-09-06,V-1008,Lumen Ridge Lighting,2,TBL-OAK,"Table lamp, oak base",8,EA,36.50,292.00,628.00,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10425,2026-09-13,V-1009,Pinehollow Janitorial Services,1,SVC-MO,"Monthly janitorial service, warehouse",2,EA,2850.00,5700.00,5700.00,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10427,2026-09-05,V-1010,"Cobalt Bay Software, Inc.",1,WMS-ENT,"Warehouse management platform, monthly",2,EA,1875.00,3750.00,3750.00,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10431,2026-08-28,V-1011,Marigold Catering Group,1,COFFEE,"Coffee service, half day",7,EA,140.00,980.00,2830.00,USD,Received,J. Lindqvist,CC-450 Marketing,S. Patel
+PO-10431,2026-08-28,V-1011,Marigold Catering Group,2,LUNCH-50,"Staff lunch, 50 guests",2,EA,925.00,1850.00,2830.00,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10432,2026-09-01,V-1012,Stonebrook Logistics,1,CHAS,"Chassis rental, per day",41,EA,45.00,1845.00,3735.00,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10432,2026-09-01,V-1012,Stonebrook Logistics,2,STOR-WK,"Container storage, per week",9,EA,210.00,1890.00,3735.00,USD,Received,R. Bowman,CC-450 Marketing,S. Patel
+PO-10435,2026-09-05,V-1001,Bristlecone Packaging Co.,1,VF-200,"Void fill paper, 1,000 ft roll",48,EA,38.50,1848.00,1848.00,USD,Partially Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10437,2026-09-02,V-1005,"Redfern Electrical Components, Inc.",1,BRK-20A,20A single-pole breaker,8,EA,9.85,78.80,2316.40,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10437,2026-09-02,V-1005,"Redfern Electrical Components, Inc.",2,WR-12G-500,"THHN wire 12 AWG, 500 ft spool",12,EA,141.00,1692.00,2316.40,USD,Received,J. Lindqvist,CC-200 Facilities,S. Patel
+PO-10437,2026-09-02,V-1005,"Redfern Electrical Components, Inc.",3,LED-PNL24,"LED panel 2x4, 5000K",8,EA,68.20,545.60,2316.40,USD,Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10439,2026-09-05,V-1007,Ironvale Fasteners Corp.,1,HX-38-16,"Hex bolt 3/8-16 x 1.5, zinc, box of 100",25,EA,18.40,460.00,746.20,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10439,2026-09-05,V-1007,Ironvale Fasteners Corp.,2,NUT-38,"Nylon lock nut 3/8-16, box of 100",36,EA,7.95,286.20,746.20,USD,Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10442,2026-09-10,V-1007,Ironvale Fasteners Corp.,1,NUT-38,"Nylon lock nut 3/8-16, box of 100",24,EA,7.95,190.80,1029.30,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10442,2026-09-10,V-1007,Ironvale Fasteners Corp.,2,HX-38-16,"Hex bolt 3/8-16 x 1.5, zinc, box of 100",28,EA,18.40,515.20,1029.30,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10442,2026-09-10,V-1007,Ironvale Fasteners Corp.,3,WSH-38F,"Flat washer 3/8, box of 250",53,EA,6.10,323.30,1029.30,USD,Received,J. Lindqvist,CC-310 Warehouse,S. Patel
+PO-10443,2026-09-20,V-1007,Ironvale Fasteners Corp.,1,HX-38-16,"Hex bolt 3/8-16 x 1.5, zinc, box of 100",45,EA,18.40,828.00,828.00,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10445,2026-08-25,V-1004,Juniper & Ash Office Supply,1,PPR-LTR,"Copy paper, letter, case of 10 reams",11,EA,49.99,549.89,2754.89,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10445,2026-08-25,V-1004,Juniper & Ash Office Supply,2,CHR-ERG,"Task chair, mesh back",9,EA,245.00,2205.00,2754.89,USD,Received,R. Bowman,CC-450 Marketing,S. Patel
+PO-10449,2026-08-27,V-1008,Lumen Ridge Lighting,1,BLB-A19,"LED bulb A19, warm, 6-pack",31,EA,14.25,441.75,1682.75,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10449,2026-08-27,V-1008,Lumen Ridge Lighting,2,TBL-OAK,"Table lamp, oak base",34,EA,36.50,1241.00,1682.75,USD,Received,J. Lindqvist,CC-450 Marketing,D. Reyes
+PO-10451,2026-09-19,V-1002,Halvorsen Industrial Supply,1,SH-7224,Steel shelving unit 72x24x84,3,EA,214.75,644.25,1179.75,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10451,2026-09-19,V-1002,Halvorsen Industrial Supply,2,GL-NIT-L,"Nitrile gloves, large, box of 100",45,EA,11.90,535.50,1179.75,USD,Received,R. Bowman,CC-120 Operations,S. Patel
+PO-10455,2026-09-11,V-1005,"Redfern Electrical Components, Inc.",1,BRK-20A,20A single-pole breaker,30,EA,9.85,295.50,1045.70,USD,Received,M. Okafor,CC-310 Warehouse,S. Patel
+PO-10455,2026-09-11,V-1005,"Redfern Electrical Components, Inc.",2,LED-PNL24,"LED panel 2x4, 5000K",11,EA,68.20,750.20,1045.70,USD,Received,J. Lindqvist,CC-200 Facilities,S. Patel
+PO-10458,2026-09-04,V-1012,Stonebrook Logistics,1,DRAY-40,"Drayage, 40 ft container",2,EA,780.00,1560.00,3615.00,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10458,2026-09-04,V-1012,Stonebrook Logistics,2,CHAS,"Chassis rental, per day",27,EA,45.00,1215.00,3615.00,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10458,2026-09-04,V-1012,Stonebrook Logistics,3,STOR-WK,"Container storage, per week",4,EA,210.00,840.00,3615.00,USD,Received,M. Okafor,CC-310 Warehouse,S. Patel
+PO-10462,2026-09-01,V-1003,Tidewater Freight Solutions LLC,1,FSC,Fuel surcharge,4,EA,186.00,744.00,744.00,USD,Received,J. Lindqvist,CC-450 Marketing,D. Reyes
+PO-10463,2026-09-10,V-1006,Kestrel Print Studio,1,PST-1824,Store poster 18x24,53,EA,6.80,360.40,360.40,USD,Partially Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10465,2026-09-14,V-1011,Marigold Catering Group,1,COFFEE,"Coffee service, half day",7,EA,140.00,980.00,3755.00,USD,Received,J. Lindqvist,CC-200 Facilities,S. Patel
+PO-10465,2026-09-14,V-1011,Marigold Catering Group,2,LUNCH-50,"Staff lunch, 50 guests",3,EA,925.00,2775.00,3755.00,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10468,2026-08-30,V-1009,Pinehollow Janitorial Services,1,SVC-MO,"Monthly janitorial service, warehouse",2,EA,2850.00,5700.00,8000.00,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10468,2026-08-30,V-1009,Pinehollow Janitorial Services,2,SVC-FLR,"Floor strip and wax, 12,000 sq ft",2,EA,1150.00,2300.00,8000.00,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10472,2026-09-11,V-1002,Halvorsen Industrial Supply,1,PL-4048,"Pallet jack, 5,500 lb capacity",5,EA,389.00,1945.00,2398.60,USD,Partially Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10472,2026-09-11,V-1002,Halvorsen Industrial Supply,2,SF-VEST,"Hi-vis safety vest, class 2",54,EA,8.40,453.60,2398.60,USD,Partially Received,M. Okafor,CC-120 Operations,S. Patel
+PO-10475,2026-08-27,V-1001,Bristlecone Packaging Co.,1,TP-48C,"Carton tape 48mm clear, case of 36",36,EA,54.00,1944.00,1944.00,USD,Partially Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10479,2026-09-12,V-1010,"Cobalt Bay Software, Inc.",1,WMS-ENT,"Warehouse management platform, monthly",3,EA,1875.00,5625.00,7965.00,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10479,2026-09-12,V-1010,"Cobalt Bay Software, Inc.",2,WMS-SEAT,"Additional user seat, monthly",52,EA,45.00,2340.00,7965.00,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10480,2026-09-10,V-1008,Lumen Ridge Lighting,1,TBL-OAK,"Table lamp, oak base",22,EA,36.50,803.00,803.00,USD,Received,M. Okafor,CC-200 Facilities,D. Reyes
+PO-10481,2026-09-04,V-1003,Tidewater Freight Solutions LLC,1,LTL-WC,"LTL freight, Port Calloway to Alder Falls",1,EA,1240.00,1240.00,1240.00,USD,Received,J. Lindqvist,CC-120 Operations,S. Patel
+PO-10485,2026-08-24,V-1012,Stonebrook Logistics,1,STOR-WK,"Container storage, per week",2,EA,210.00,420.00,960.00,USD,Received,M. Okafor,CC-120 Operations,S. Patel
+PO-10485,2026-08-24,V-1012,Stonebrook Logistics,2,CHAS,"Chassis rental, per day",12,EA,45.00,540.00,960.00,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10487,2026-08-26,V-1010,"Cobalt Bay Software, Inc.",1,WMS-ENT,"Warehouse management platform, monthly",3,EA,1875.00,5625.00,7245.00,USD,Partially Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10487,2026-08-26,V-1010,"Cobalt Bay Software, Inc.",2,WMS-SEAT,"Additional user seat, monthly",36,EA,45.00,1620.00,7245.00,USD,Partially Received,M. Okafor,CC-200 Facilities,D. Reyes
+PO-10490,2026-09-19,V-1009,Pinehollow Janitorial Services,1,SVC-MO,"Monthly janitorial service, warehouse",3,EA,2850.00,8550.00,8550.00,USD,Partially Received,M. Okafor,CC-200 Facilities,D. Reyes

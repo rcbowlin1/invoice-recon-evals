@@ -1,0 +1,18 @@
+Document ID,Supplier,Supplier Invoice No.,Invoice Date,Due Date,PO No.,Net Amount,Tax Amount,Gross Amount,Currency,Received Via,Approval Status,Entered By,Entered On
+LL-55115,Kestrel Print Studio,19296,08/28/2026,09/12/2026,PO-10416,"4,700.00",282.00,"4,982.00",USD,EDI 810,Pending Approval,system,08/28/2026
+LL-55134,Lumen Ridge Lighting Co.,LRL49880,08/31/2026,09/30/2026,PO-10449,"1,682.78",86.24,"1,769.02",USD,Supplier Portal,Approved,system,08/31/2026
+LL-55138,Bristlecone Packaging Co.,BPC-25280,09/01/2026,10/01/2026,PO-10475,"1,944.00",0.00,"1,944.00",USD,Supplier Portal,Approved,system,09/03/2026
+LL-55149,Marigold Catering,MCG62261,09/03/2026,09/18/2026,,"3,250.00",0.00,"3,250.00",USD,EDI 810,Approved,system,09/04/2026
+LL-55155,Cobalt Bay Software,CBS-2026-2274,09/11/2026,10/11/2026,PO-10427,"3,750.00",0.00,"3,750.00",USD,EDI 810,Pending Approval,system,09/11/2026
+LL-55167,Ironvale Fasteners Corp.,IVF-56804,09/13/2026,10/13/2026,PO-10439,746.20,44.77,790.97,USD,Supplier Portal,Approved,system,09/14/2026
+LL-55178,Tidewater Freight Solutions,TFS-65403-R,09/14/2026,09/29/2026,PO-10462,744.00,0.00,744.00,USD,Supplier Portal,Approved,system,09/14/2026
+LL-55182,Stonebrook Logistics,SBL-13705,09/15/2026,10/15/2026,PO-10432,"3,735.00",0.00,"3,735.00",USD,EDI 810,Pending Approval,system,09/16/2026
+LL-55200,Bristlecone Packaging Company,BPC-25278,09/15/2026,10/15/2026,PO-10435,"1,848.00",0.00,"1,848.00",USD,Supplier Portal,Approved,system,09/15/2026
+LL-55219,Pinehollow Janitorial,PJ-25104,09/17/2026,10/02/2026,PO-10468,"8,000.00",0.00,"8,000.00",USD,Supplier Portal,Approved,system,09/17/2026
+LL-55230,Lumen Ridge Lighting,LRL49877,09/19/2026,10/19/2026,PO-10421,628.00,32.19,660.19,USD,Supplier Portal,Approved,system,09/21/2026
+LL-55247,"HALVORSEN INDUSTRIAL SUPPLY, LLC",HIS007442,09/21/2026,10/21/2026,PO-10407,"2,968.20",163.25,"3,131.45",USD,Supplier Portal,Approved,system,09/21/2026
+LL-55252,Pinehollow Janitorial Services,PJ-25108,09/23/2026,10/08/2026,PO-10490,"8,550.00",0.00,"8,550.00",USD,Supplier Portal,Approved,system,09/23/2026
+LL-55256,Kestrel Print Studio,19297,09/25/2026,10/10/2026,PO-10463,360.40,21.62,382.02,USD,Supplier Portal,Approved,system,09/25/2026
+LL-55263,Ironvale Fasteners Corp.,IVF-56812,09/28/2026,10/28/2026,PO-10443,828.00,49.68,877.68,USD,Supplier Portal,Pending Approval,system,09/28/2026
+LL-55271,Redfern Electrical Components Inc,RE-082350,09/28/2026,10/28/2026,PO-10455,"1,085.10",89.52,"1,174.62",USD,EDI 810,Pending Approval,system,09/30/2026
+LL-55278,Juniper & Ash,JA-39236,10/01/2026,10/31/2026,PO-10412,"3,501.59",192.59,"3,694.18",USD,EDI 810,Approved,system,10/03/2026
