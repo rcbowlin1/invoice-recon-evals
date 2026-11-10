@@ -1,0 +1,232 @@
+{
+ "Osprey_OPC04962_scan.pdf": {
+  "vendor_name": "Osprey Pt. Ceramics",
+  "invoice_number": "OPC04962",
+  "invoice_date": "2026-11-19",
+  "po_number": "PO-10557",
+  "subtotal": "11856.80",
+  "tax": "652.12",
+  "total": "12508.92",
+  "confidence": "medium"
+ },
+ "Harrowgate_HFW43032.pdf": {
+  "vendor_name": "Harrowgate Furn. Works",
+  "invoice_number": "HFW43032",
+  "invoice_date": "2026-11-14",
+  "po_number": "PO-10525",
+  "subtotal": "17628.40",
+  "tax": "1233.99",
+  "total": "18862.39",
+  "confidence": "high"
+ },
+ "Quillmark_Q058899.pdf": {
+  "vendor_name": "Quillmark Signs & Display",
+  "invoice_number": "Q058899",
+  "invoice_date": "2026-10-31",
+  "po_number": "PO-10572",
+  "subtotal": "7717.00",
+  "tax": "559.48",
+  "total": "8276.48",
+  "confidence": "high"
+ },
+ "Pinehollow_PJ-41457_scan.pdf": {
+  "vendor_name": "Pinehollow Janitorial",
+  "invoice_number": "PJ-41457",
+  "invoice_date": "2026-10-23",
+  "po_number": "PO-10585",
+  "subtotal": "10470.00",
+  "tax": "0.00",
+  "total": "10470.00",
+  "confidence": "medium"
+ },
+ "Juniper_JA-54449.pdf": {
+  "vendor_name": "Juniper & Ash",
+  "invoice_number": "JA-54449",
+  "invoice_date": "2026-11-11",
+  "po_number": "PO-10594",
+  "subtotal": "3174.61",
+  "tax": "174.60",
+  "total": "3349.21",
+  "confidence": "high"
+ },
+ "Brambleton_BES-011190.pdf": {
+  "vendor_name": "Brambleton Electric Supply Company",
+  "invoice_number": "BES-011190",
+  "invoice_date": "2026-12-15",
+  "po_number": "PO-10587",
+  "subtotal": "3602.10",
+  "tax": "216.13",
+  "total": "3818.23",
+  "confidence": "high"
+ },
+ "Osprey_OPC04952_scan.pdf": {
+  "vendor_name": "Osprey Pt. Ceramics",
+  "invoice_number": "OPC04952",
+  "invoice_date": "2026-11-14",
+  "po_number": "PO-10516",
+  "subtotal": "3131.75",
+  "tax": "172.25",
+  "total": "3304.00",
+  "confidence": "medium"
+ },
+ "Quillmark_Q058899-1.pdf": {
+  "vendor_name": "Quillmark Signs & Display",
+  "invoice_number": "Q058899",
+  "invoice_date": "2026-11-21",
+  "po_number": "PO-10572",
+  "subtotal": "7717.00",
+  "tax": "559.48",
+  "total": "8276.48",
+  "confidence": "high"
+ },
+ "VVStudio_VV-26-24502.pdf": {
+  "vendor_name": "V&V Studio",
+  "invoice_number": "VV-26-24502",
+  "invoice_date": "2026-11-08",
+  "po_number": "PO-10533",
+  "subtotal": "551.00",
+  "tax": "0.00",
+  "total": "551.00",
+  "confidence": "high"
+ },
+ "Tidewater_TFS-37123.pdf": {
+  "vendor_name": "Tidewater Freight Solutions",
+  "invoice_number": "TFS-37123",
+  "invoice_date": "2026-11-14",
+  "po_number": "PO-10569",
+  "subtotal": "1878.00",
+  "tax": "0.00",
+  "total": "1878.00",
+  "confidence": "high"
+ },
+ "Thistlewood_TPC-58604.pdf": {
+  "vendor_name": "Thistlewood Pallet and Crate",
+  "invoice_number": "TPC-58604",
+  "invoice_date": "2026-10-19",
+  "po_number": "PO-10552",
+  "subtotal": "1110.00",
+  "tax": "0.00",
+  "total": "1110.00",
+  "confidence": "high"
+ },
+ "Juniper_JA-54445.pdf": {
+  "vendor_name": "Juniper & Ash",
+  "invoice_number": "JA-54445",
+  "invoice_date": "2026-11-24",
+  "po_number": "PO-10579",
+  "subtotal": "4178.34",
+  "tax": "229.81",
+  "total": "4408.15",
+  "confidence": "high"
+ },
+ "Saltmarsh_SCP-7941.pdf": {
+  "vendor_name": "Saltmarsh Cleaning Prod., Inc.",
+  "invoice_number": "SCP-7941",
+  "invoice_date": "2026-11-05",
+  "po_number": "PO-10521",
+  "subtotal": "4476.85",
+  "tax": "268.61",
+  "total": "4745.46",
+  "confidence": "high"
+ },
+ "Thistlewood_TPC-58606.pdf": {
+  "vendor_name": "Thistlewood Pallet and Crate",
+  "invoice_number": "TPC-58606",
+  "invoice_date": "2026-11-26",
+  "po_number": "PO-10575",
+  "subtotal": "690.00",
+  "tax": "0.00",
+  "total": "690.00",
+  "confidence": "high"
+ },
+ "Fernhaven_FTM-26-16700.pdf": {
+  "vendor_name": "Fernhaven Textiles",
+  "invoice_number": "FTM-26-16700",
+  "invoice_date": "2026-11-25",
+  "po_number": "PO-10511",
+  "subtotal": "1735.00",
+  "tax": "0.00",
+  "total": "1735.00",
+  "confidence": "high"
+ },
+ "Tidewater_TFS-37130.pdf": {
+  "vendor_name": "Tidewater Freight Solutions",
+  "invoice_number": "TFS-37130",
+  "invoice_date": "2026-12-17",
+  "po_number": "PO-10591",
+  "subtotal": "4875.00",
+  "tax": "0.00",
+  "total": "4875.00",
+  "confidence": "high"
+ },
+ "Brambleton_BES-011184_scan.pdf": {
+  "vendor_name": "Brambleton Electric Supply Company",
+  "invoice_number": "BES-011184",
+  "invoice_date": "2026-12-02",
+  "po_number": "PO-10546",
+  "subtotal": "4904.75",
+  "tax": "294.29",
+  "total": "5199.04",
+  "confidence": "medium"
+ },
+ "VVStudio_VV-26-24515.pdf": {
+  "vendor_name": "V&V Studio",
+  "invoice_number": "VV-26-24515",
+  "invoice_date": "2026-11-10",
+  "po_number": null,
+  "subtotal": "1262.00",
+  "tax": "0.00",
+  "total": "1262.00",
+  "confidence": "high"
+ },
+ "Harrowgate_HFW43041.pdf": {
+  "vendor_name": "Harrowgate Furn. Works",
+  "invoice_number": "HFW43041",
+  "invoice_date": "2026-12-12",
+  "po_number": "PO-10590",
+  "subtotal": "4818.00",
+  "tax": "337.26",
+  "total": "5155.26",
+  "confidence": "high"
+ },
+ "Pinehollow_PJ-41452.pdf": {
+  "vendor_name": "Pinehollow Janitorial",
+  "invoice_number": "PJ-41452",
+  "invoice_date": "2026-11-03",
+  "po_number": "PO-10535",
+  "subtotal": "3070.00",
+  "tax": "0.00",
+  "total": "3070.00",
+  "confidence": "high"
+ },
+ "Quillmark_Q058898.pdf": {
+  "vendor_name": "Quillmark Signs & Display",
+  "invoice_number": "Q058898",
+  "invoice_date": "2026-11-01",
+  "po_number": "PO-10560",
+  "subtotal": "3339.68",
+  "tax": "242.13",
+  "total": "3581.81",
+  "confidence": "high"
+ },
+ "Fernhaven_FTM-26-16714_scan.pdf": {
+  "vendor_name": "Fernhaven Textiles",
+  "invoice_number": "FTM-26-16714",
+  "invoice_date": "2026-12-02",
+  "po_number": null,
+  "subtotal": "2935.00",
+  "tax": "0.00",
+  "total": "2935.00",
+  "confidence": "medium"
+ },
+ "Saltmarsh_SCP-7948_scan.pdf": {
+  "vendor_name": "Saltmarsh Cleaning Prod., Inc.",
+  "invoice_number": "SCP-7948",
+  "invoice_date": "2026-11-18",
+  "po_number": "PO-10566",
+  "subtotal": "4142.15",
+  "tax": "248.53",
+  "total": "4390.68",
+  "confidence": "medium"
+ }
+}

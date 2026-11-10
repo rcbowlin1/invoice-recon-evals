@@ -1,2 +1,4 @@
 __pycache__/
 .DS_Store
+holdout/blind/*.png
+holdout/blind/*.zip

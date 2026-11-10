@@ -1,0 +1,21 @@
+{
+  "score": 90.1,
+  "metrics": {
+    "extraction": 1.0,
+    "extraction_clean": 1.0,
+    "extraction_scanned": 1.0,
+    "status": 0.925,
+    "exceptions": 0.8387096774193549,
+    "exception_precision": 0.7647058823529411,
+    "exception_recall": 0.9285714285714286,
+    "payment_matching": 0.9,
+    "unmatched_payments": 0.5,
+    "traceable_numbers": 1.0,
+    "auto_decided_rate": 1.0,
+    "auto_decided_error_rate": 0.125,
+    "review_rate": 0.0,
+    "silent_errors": 5,
+    "silent_error_dollars": 27067.66
+  },
+  "judge": null
+}

@@ -1,7 +1,8 @@
 """Score an agent run against the answer key.
 
-    python evals/score.py runs/v1            # code checks only
-    python evals/score.py runs/v2 --judge    # + Claude grades each exception note (needs ANTHROPIC_API_KEY)
+    python evals/score.py runs/dev-v1                               # dev set, code checks only
+    python evals/score.py runs/holdout-v2 --key holdout/answer_key/answer_key.json
+    python evals/score.py runs/dev-v1 --judge    # + Claude grades each exception note (needs ANTHROPIC_API_KEY)
 
 Writes runs/<name>/scorecard.md and scorecard.json.
 """
@@ -12,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-KEY = json.load(open(ROOT / "answer_key" / "answer_key.json"))
+KEY = None
 TOL = 0.01
 EXCEPTION_TYPES = ["AMOUNT_MISMATCH_PO", "DUPLICATE_INVOICE", "DUPLICATE_PAYMENT", "PARTIAL_PAYMENT", "MISSING_PO"]
 
@@ -55,14 +56,18 @@ def main():
     ap.add_argument("run")
     ap.add_argument("--judge", action="store_true")
     ap.add_argument("--model", default="claude-sonnet-5-5")
+    ap.add_argument("--key", default="answer_key/answer_key.json")
     a = ap.parse_args()
+    global KEY
+    KEY = json.load(open(ROOT / a.key))
+    ap_name = next(k["source"].split("#")[0] for k in KEY["invoices"] if "#" in k["source"])
     run = ROOT / a.run
     rep = json.load(open(run / "report.json"))
     got = {}
     for i in rep["invoices"]:
         src = i["source"]
         if "#" in src:
-            src = "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#" + src.split("#")[1]
+            src = ap_name + "#" + src.split("#")[1]
         got[src] = i
 
     m = {}
@@ -137,6 +142,27 @@ def main():
 
     score = sum(WEIGHTS[x] * m[x] for x in WEIGHTS)
 
+    # 7) at scale: what the agent decided on its own, and how often that was wrong.
+    # An invoice is "right" only if status, exceptions and matched payments are all right.
+    auto, auto_wrong, review, leaked = 0, 0, 0, 0.0
+    for k in KEY["invoices"]:
+        g = got.get(k["source"], {})
+        if g.get("status") == "NEEDS_REVIEW":
+            review += 1
+            continue
+        auto += 1
+        right = (g.get("status") == k["status"] and set(g.get("exceptions") or []) == set(k["exceptions"])
+                 and set(g.get("bank_refs") or []) == set(k["bank_refs"]))
+        if not right:
+            auto_wrong += 1
+            leaked += k["total"] or 0
+    n = len(KEY["invoices"])
+    m["auto_decided_rate"] = auto / n
+    m["auto_decided_error_rate"] = auto_wrong / auto if auto else 0.0
+    m["review_rate"] = review / n
+    m["silent_errors"] = auto_wrong
+    m["silent_error_dollars"] = round(leaked, 2)
+
     judge = None
     if a.judge:
         pairs = []
@@ -161,6 +187,12 @@ def main():
           f"| Payment matching | {WEIGHTS['payment_matching']} | {m['payment_matching']:.0%} |",
           f"| Unmatched payments found (F1) | {WEIGHTS['unmatched_payments']} | {m['unmatched_payments']:.0%} |",
           f"| Numbers traceable to source | {WEIGHTS['traceable_numbers']} | {m['traceable_numbers']:.0%} |"]
+    md += ["", "## At scale", "",
+           "| Measure | Result |", "|---|---|",
+           f"| Decided without a human | {m['auto_decided_rate']:.0%} |",
+           f"| Sent to review (NEEDS_REVIEW) | {m['review_rate']:.0%} |",
+           f"| Wrong among those it decided alone | {m['auto_decided_error_rate']:.0%} "
+           f"({m['silent_errors']} invoices, ${m['silent_error_dollars']:,.2f}) |"]
     if judge is not None:
         md += [f"| Exception notes (LLM judge, 1-5) | not weighted | {judge:.1f} |"]
     md += ["", "## By exception type", "", "| Type | Precision | Recall | TP | FP | FN |", "|---|---|---|---|---|---|"]

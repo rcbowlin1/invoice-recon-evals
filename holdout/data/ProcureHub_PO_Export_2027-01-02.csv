@@ -1,0 +1,97 @@
+PO Number,PO Date,Supplier ID,Supplier Name,Line,Item Code,Item Description,Qty Ordered,UOM,Unit Price,Line Total,PO Total,Currency,PO Status,Buyer,Cost Center,Approved By
+PO-10511,2026-11-14,V-1013,"Fernhaven Textile Mills, Inc.",1,THR-WVN-50,"Woven throw 50x60, oatmeal",66,EA,18.20,1201.20,1735.00,USD,Received,R. Bowman,CC-120 Operations,S. Patel
+PO-10511,2026-11-14,V-1013,"Fernhaven Textile Mills, Inc.",2,TWL-BTH-WH,"Bath towel, 30x56, white, 600 gsm",68,EA,7.85,533.80,1735.00,USD,Received,J. Lindqvist,CC-450 Marketing,S. Patel
+PO-10515,2026-10-22,V-1014,Quillmark Signage & Display LLC,1,WIN-CLG,"Window cling set, seasonal",5,EA,62.00,310.00,310.00,USD,Received,T. Achebe,CC-200 Facilities,S. Patel
+PO-10516,2026-11-09,V-1015,"Osprey Point Ceramics, Ltd.",1,PTR-BTR,Butter dish with lid,31,EA,8.45,261.95,3131.75,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10516,2026-11-09,V-1015,"Osprey Point Ceramics, Ltd.",2,PLT-SAL-8B,"Salad plate 8 in, tidepool blue",600,EA,3.95,2370.00,3131.75,USD,Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10516,2026-11-09,V-1015,"Osprey Point Ceramics, Ltd.",3,PLN-PT-8,Planter 8 in with saucer,51,EA,9.80,499.80,3131.75,USD,Received,M. Okafor,CC-450 Marketing,D. Reyes
+PO-10517,2026-11-10,V-1016,Brambleton Electric Supply Co.,1,OCC-SNS,"Occupancy sensor, ceiling mount",43,EA,58.90,2532.70,4076.20,USD,Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10517,2026-11-10,V-1016,Brambleton Electric Supply Co.,2,WR-14-250,"THHN wire 14 AWG, 250 ft",2,EA,64.00,128.00,4076.20,USD,Received,T. Achebe,CC-120 Operations,D. Reyes
+PO-10517,2026-11-10,V-1016,Brambleton Electric Supply Co.,3,JBX-4SQ,"Junction box 4 in square, box of 25",38,EA,37.25,1415.50,4076.20,USD,Received,J. Lindqvist,CC-200 Facilities,S. Patel
+PO-10521,2026-10-30,V-1017,Saltmarsh Cleaning Products Inc.,1,MOP-HD-24,Dust mop head 24 in,67,EA,12.95,867.65,4476.85,USD,Partially Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10521,2026-10-30,V-1017,Saltmarsh Cleaning Products Inc.,2,DGR-5G,"Neutral floor cleaner, 5 gal",50,EA,46.80,2340.00,4476.85,USD,Partially Received,T. Achebe,CC-310 Warehouse,D. Reyes
+PO-10521,2026-10-30,V-1017,Saltmarsh Cleaning Products Inc.,3,LNR-4045,"Can liners 40x45, case of 250",38,EA,33.40,1269.20,4476.85,USD,Partially Received,T. Achebe,CC-200 Facilities,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,1,TBL-END-W,"End table, walnut veneer",2,EA,142.50,285.00,17628.40,USD,Received,M. Okafor,CC-200 Facilities,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,2,BKC-5S,"Bookcase, 5 shelf, ash",5,EA,239.00,1195.00,17628.40,USD,Received,M. Okafor,CC-450 Marketing,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,3,RCK-CT-5,"Coat rack, 5 hook, ash",8,EA,41.20,329.60,17628.40,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,4,CRT-STG-L,"Storage crate, large, slatted",60,EA,34.60,2076.00,17628.40,USD,Received,M. Okafor,CC-450 Marketing,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,5,CHR-DIN-SP,"Dining chair, spindle back",12,EA,96.50,1158.00,17628.40,USD,Received,J. Lindqvist,CC-450 Marketing,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,6,SHF-WL-36,Floating wall shelf 36 in,8,EA,46.75,374.00,17628.40,USD,Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,7,SHF-WL-24,Floating wall shelf 24 in,48,EA,38.25,1836.00,17628.40,USD,Received,J. Lindqvist,CC-120 Operations,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,8,CRT-STG-S,"Storage crate, small, slatted",56,EA,22.80,1276.80,17628.40,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,9,BNC-ENT-42,"Entry bench 42 in, cushioned",6,EA,198.00,1188.00,17628.40,USD,Received,T. Achebe,CC-310 Warehouse,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,10,CHR-DIN-UP,"Dining chair, upholstered",9,EA,132.00,1188.00,17628.40,USD,Received,T. Achebe,CC-120 Operations,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,11,MIR-WL-30,"Wall mirror 30 in, oak frame",9,EA,112.00,1008.00,17628.40,USD,Received,M. Okafor,CC-120 Operations,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,12,TRY-SRV-OK,"Serving tray, oak, handles",20,EA,27.40,548.00,17628.40,USD,Received,T. Achebe,CC-310 Warehouse,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,13,ST-OAK-30,"Bar stool 30 in, white oak",10,EA,126.00,1260.00,17628.40,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,14,TBL-CON-48,"Console table 48 in, oak",8,EA,286.00,2288.00,17628.40,USD,Received,J. Lindqvist,CC-310 Warehouse,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,15,ST-OAK-24,"Counter stool 24 in, white oak",7,EA,118.00,826.00,17628.40,USD,Received,R. Bowman,CC-450 Marketing,S. Patel
+PO-10525,2026-11-01,V-1018,Harrowgate Furniture Works LLC,16,OTT-RND-18,"Round ottoman 18 in, boucle",9,EA,88.00,792.00,17628.40,USD,Received,J. Lindqvist,CC-120 Operations,S. Patel
+PO-10529,2026-11-03,V-1019,Thistlewood Pallet & Crate Co.,1,PLT-HT-48,Heat-treated pallet 48x40,24,EA,14.25,342.00,1576.00,USD,Received,T. Achebe,CC-120 Operations,S. Patel
+PO-10529,2026-11-03,V-1019,Thistlewood Pallet & Crate Co.,2,PLT-GMA-48,"GMA pallet 48x40, grade A",10,EA,11.40,114.00,1576.00,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10529,2026-11-03,V-1019,Thistlewood Pallet & Crate Co.,3,PLT-PU,"Pallet pickup and recycle, per load",7,EA,160.00,1120.00,1576.00,USD,Received,T. Achebe,CC-200 Facilities,D. Reyes
+PO-10533,2026-10-27,V-1020,Vellum & Vine Creative LLC,1,RTCH-IMG,"Image retouching, per image",19,EA,14.00,266.00,551.00,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10533,2026-10-27,V-1020,Vellum & Vine Creative LLC,2,DSN-HR,"Design services, hourly",3,EA,95.00,285.00,551.00,USD,Received,T. Achebe,CC-120 Operations,S. Patel
+PO-10534,2026-10-15,V-1003,Tidewater Freight Solutions LLC,1,LTL-WC,"LTL freight, Port Calloway to Alder Falls",1,EA,1240.00,1240.00,3315.00,USD,Partially Received,R. Bowman,CC-310 Warehouse,D. Reyes
+PO-10534,2026-10-15,V-1003,Tidewater Freight Solutions LLC,2,DET-HR,"Detention, per hour",11,EA,85.00,935.00,3315.00,USD,Partially Received,M. Okafor,CC-450 Marketing,D. Reyes
+PO-10534,2026-10-15,V-1003,Tidewater Freight Solutions LLC,3,LIFT,Liftgate delivery,12,EA,95.00,1140.00,3315.00,USD,Partially Received,J. Lindqvist,CC-450 Marketing,D. Reyes
+PO-10535,2026-10-24,V-1009,Pinehollow Janitorial Services,1,SVC-FLR,"Floor strip and wax, 12,000 sq ft",1,EA,1150.00,1150.00,3070.00,USD,Received,T. Achebe,CC-200 Facilities,S. Patel
+PO-10535,2026-10-24,V-1009,Pinehollow Janitorial Services,2,SVC-WIN,"Exterior window washing, storefront",3,EA,640.00,1920.00,3070.00,USD,Received,T. Achebe,CC-200 Facilities,D. Reyes
+PO-10539,2026-10-21,V-1004,Juniper & Ash Office Supply,1,LBL-4X6,"Shipping labels 4x6, roll of 500",18,EA,18.75,337.50,337.50,USD,Received,M. Okafor,CC-310 Warehouse,S. Patel
+PO-10542,2026-11-10,V-1013,"Fernhaven Textile Mills, Inc.",1,THR-WVN-50,"Woven throw 50x60, oatmeal",37,EA,18.20,673.40,995.15,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10542,2026-11-10,V-1013,"Fernhaven Textile Mills, Inc.",2,NAP-LIN-4,"Linen napkin, set of 4, natural",33,EA,9.75,321.75,995.15,USD,Received,J. Lindqvist,CC-120 Operations,D. Reyes
+PO-10546,2026-11-21,V-1016,Brambleton Electric Supply Co.,1,JBX-4SQ,"Junction box 4 in square, box of 25",45,EA,37.25,1676.25,4904.75,USD,Received,T. Achebe,CC-120 Operations,S. Patel
+PO-10546,2026-11-21,V-1016,Brambleton Electric Supply Co.,2,EM-EXIT,"Emergency exit sign, LED",67,EA,41.50,2780.50,4904.75,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10546,2026-11-21,V-1016,Brambleton Electric Supply Co.,3,LED-TRK-4,"LED track head, 4000K, black",20,EA,22.40,448.00,4904.75,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10550,2026-10-29,V-1017,Saltmarsh Cleaning Products Inc.,1,LNR-4045,"Can liners 40x45, case of 250",34,EA,33.40,1135.60,1135.60,USD,Received,T. Achebe,CC-200 Facilities,S. Patel
+PO-10552,2026-10-14,V-1019,Thistlewood Pallet & Crate Co.,1,CRT-CST,"Custom crate, per spec sheet",6,EA,185.00,1110.00,1110.00,USD,Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10556,2026-11-16,V-1015,"Osprey Point Ceramics, Ltd.",1,TRV-SPN,"Spoon rest, glazed",600,EA,2.65,1590.00,3438.00,USD,Received,T. Achebe,CC-200 Facilities,D. Reyes
+PO-10556,2026-11-16,V-1015,"Osprey Point Ceramics, Ltd.",2,BWL-CER-6,"Cereal bowl 6 in, speckled",480,EA,3.85,1848.00,3438.00,USD,Received,T. Achebe,CC-200 Facilities,S. Patel
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",1,MUG-12-CH,"Stoneware mug 12 oz, charcoal",120,EA,4.10,492.00,11856.80,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",2,PLT-SAL-8,"Salad plate 8 in, matte white",240,EA,3.95,948.00,11856.80,USD,Received,J. Lindqvist,CC-200 Facilities,S. Patel
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",3,PLT-DIN-11,"Dinner plate 11 in, matte white",52,EA,5.25,273.00,11856.80,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",4,PLT-SAL-8B,"Salad plate 8 in, tidepool blue",600,EA,3.95,2370.00,11856.80,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",5,TRV-SPN,"Spoon rest, glazed",360,EA,2.65,954.00,11856.80,USD,Received,T. Achebe,CC-120 Operations,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",6,VSE-BUD-6,"Bud vase 6 in, assorted",71,EA,6.40,454.40,11856.80,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",7,PLN-PT-12,Planter 12 in with saucer,56,EA,17.25,966.00,11856.80,USD,Received,T. Achebe,CC-450 Marketing,S. Patel
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",8,PLN-PT-8,Planter 8 in with saucer,22,EA,9.80,215.60,11856.80,USD,Received,T. Achebe,CC-310 Warehouse,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",9,CNT-CAN-S,"Canister, small, cork lid",28,EA,7.70,215.60,11856.80,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",10,PTR-BTR,Butter dish with lid,42,EA,8.45,354.90,11856.80,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",11,CNT-CAN-L,"Canister, large, cork lid",67,EA,11.90,797.30,11856.80,USD,Received,R. Bowman,CC-450 Marketing,S. Patel
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",12,BWL-CER-6,"Cereal bowl 6 in, speckled",480,EA,3.85,1848.00,11856.80,USD,Received,J. Lindqvist,CC-450 Marketing,S. Patel
+PO-10557,2026-11-14,V-1015,"Osprey Point Ceramics, Ltd.",13,MUG-12-SG,"Stoneware mug 12 oz, sea glass",480,EA,4.10,1968.00,11856.80,USD,Received,R. Bowman,CC-120 Operations,D. Reyes
+PO-10558,2026-10-31,V-1015,"Osprey Point Ceramics, Ltd.",1,TRV-SPN,"Spoon rest, glazed",360,EA,2.65,954.00,954.00,USD,Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10560,2026-10-27,V-1014,Quillmark Signage & Display LLC,1,WIN-CLG,"Window cling set, seasonal",11,EA,62.00,682.00,3339.20,USD,Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10560,2026-10-27,V-1014,Quillmark Signage & Display LLC,2,FLR-DCL-24,"Floor decal 24 in round, laminated",23,EA,16.40,377.20,3339.20,USD,Received,R. Bowman,CC-120 Operations,S. Patel
+PO-10560,2026-10-27,V-1014,Quillmark Signage & Display LLC,3,ACR-HLD-85,Acrylic sign holder 8.5x11,480,EA,4.75,2280.00,3339.20,USD,Received,R. Bowman,CC-310 Warehouse,D. Reyes
+PO-10562,2026-11-04,V-1020,Vellum & Vine Creative LLC,1,DSN-HR,"Design services, hourly",3,EA,95.00,285.00,285.00,USD,Received,J. Lindqvist,CC-310 Warehouse,S. Patel
+PO-10566,2026-11-13,V-1017,Saltmarsh Cleaning Products Inc.,1,DGR-5G,"Neutral floor cleaner, 5 gal",43,EA,46.80,2012.40,3954.95,USD,Partially Received,T. Achebe,CC-200 Facilities,S. Patel
+PO-10566,2026-11-13,V-1017,Saltmarsh Cleaning Products Inc.,2,TWL-CF-6,"C-fold towels, case of 2,400",50,EA,28.75,1437.50,3954.95,USD,Partially Received,J. Lindqvist,CC-450 Marketing,S. Patel
+PO-10566,2026-11-13,V-1017,Saltmarsh Cleaning Products Inc.,3,MOP-HD-24,Dust mop head 24 in,39,EA,12.95,505.05,3954.95,USD,Partially Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10568,2026-10-26,V-1013,"Fernhaven Textile Mills, Inc.",1,TWL-HND-GY,"Hand towel, 16x30, slate",240,EA,3.40,816.00,1616.80,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10568,2026-10-26,V-1013,"Fernhaven Textile Mills, Inc.",2,THR-WVN-50,"Woven throw 50x60, oatmeal",44,EA,18.20,800.80,1616.80,USD,Received,M. Okafor,CC-450 Marketing,D. Reyes
+PO-10569,2026-11-08,V-1003,Tidewater Freight Solutions LLC,1,LTL-XD,"LTL freight, cross-dock transfer",2,EA,865.00,1730.00,1730.00,USD,Received,J. Lindqvist,CC-450 Marketing,D. Reyes
+PO-10572,2026-10-18,V-1014,Quillmark Signage & Display LLC,1,ACR-HLD-85,Acrylic sign holder 8.5x11,960,EA,4.75,4560.00,7717.00,USD,Received,R. Bowman,CC-200 Facilities,D. Reyes
+PO-10572,2026-10-18,V-1014,Quillmark Signage & Display LLC,2,WIN-CLG,"Window cling set, seasonal",7,EA,62.00,434.00,7717.00,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10572,2026-10-18,V-1014,Quillmark Signage & Display LLC,3,PSF-2436,Poster snap frame 24x36,70,EA,38.90,2723.00,7717.00,USD,Received,M. Okafor,CC-310 Warehouse,D. Reyes
+PO-10575,2026-11-15,V-1019,Thistlewood Pallet & Crate Co.,1,CRT-CST,"Custom crate, per spec sheet",2,EA,185.00,370.00,690.00,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10575,2026-11-15,V-1019,Thistlewood Pallet & Crate Co.,2,PLT-PU,"Pallet pickup and recycle, per load",2,EA,160.00,320.00,690.00,USD,Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10579,2026-11-14,V-1004,Juniper & Ash Office Supply,1,PPR-LTR,"Copy paper, letter, case of 10 reams",41,EA,49.99,2049.59,4178.34,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10579,2026-11-14,V-1004,Juniper & Ash Office Supply,2,LBL-4X6,"Shipping labels 4x6, roll of 500",9,EA,18.75,168.75,4178.34,USD,Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10579,2026-11-14,V-1004,Juniper & Ash Office Supply,3,CHR-ERG,"Task chair, mesh back",8,EA,245.00,1960.00,4178.34,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10581,2026-11-05,V-1018,Harrowgate Furniture Works LLC,1,RCK-CT-5,"Coat rack, 5 hook, ash",44,EA,41.20,1812.80,4957.60,USD,Received,T. Achebe,CC-450 Marketing,D. Reyes
+PO-10581,2026-11-05,V-1018,Harrowgate Furniture Works LLC,2,CRT-STG-L,"Storage crate, large, slatted",63,EA,34.60,2179.80,4957.60,USD,Received,M. Okafor,CC-450 Marketing,S. Patel
+PO-10581,2026-11-05,V-1018,Harrowgate Furniture Works LLC,3,CHR-DIN-SP,"Dining chair, spindle back",10,EA,96.50,965.00,4957.60,USD,Received,R. Bowman,CC-310 Warehouse,S. Patel
+PO-10585,2026-10-19,V-1009,Pinehollow Janitorial Services,1,SVC-MO,"Monthly janitorial service, warehouse",3,EA,2850.00,8550.00,10470.00,USD,Received,T. Achebe,CC-310 Warehouse,S. Patel
+PO-10585,2026-10-19,V-1009,Pinehollow Janitorial Services,2,SVC-WIN,"Exterior window washing, storefront",3,EA,640.00,1920.00,10470.00,USD,Received,J. Lindqvist,CC-200 Facilities,D. Reyes
+PO-10587,2026-12-02,V-1016,Brambleton Electric Supply Co.,1,OCC-SNS,"Occupancy sensor, ceiling mount",41,EA,58.90,2414.90,3602.10,USD,Received,R. Bowman,CC-120 Operations,S. Patel
+PO-10587,2026-12-02,V-1016,Brambleton Electric Supply Co.,2,LED-TRK-4,"LED track head, 4000K, black",53,EA,22.40,1187.20,3602.10,USD,Received,T. Achebe,CC-310 Warehouse,D. Reyes
+PO-10589,2026-12-06,V-1017,Saltmarsh Cleaning Products Inc.,1,GLS-CS12,"Glass cleaner, case of 12 qt",49,EA,31.20,1528.80,2137.45,USD,Partially Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10589,2026-12-06,V-1017,Saltmarsh Cleaning Products Inc.,2,MOP-HD-24,Dust mop head 24 in,47,EA,12.95,608.65,2137.45,USD,Partially Received,M. Okafor,CC-120 Operations,D. Reyes
+PO-10590,2026-11-28,V-1018,Harrowgate Furniture Works LLC,1,TBL-CON-48,"Console table 48 in, oak",12,EA,286.00,3432.00,4818.00,USD,Received,R. Bowman,CC-120 Operations,S. Patel
+PO-10590,2026-11-28,V-1018,Harrowgate Furniture Works LLC,2,ST-OAK-30,"Bar stool 30 in, white oak",11,EA,126.00,1386.00,4818.00,USD,Received,T. Achebe,CC-200 Facilities,D. Reyes
+PO-10591,2026-12-03,V-1003,Tidewater Freight Solutions LLC,1,LTL-WC,"LTL freight, Port Calloway to Alder Falls",2,EA,1240.00,2480.00,4875.00,USD,Received,T. Achebe,CC-310 Warehouse,S. Patel
+PO-10591,2026-12-03,V-1003,Tidewater Freight Solutions LLC,2,LIFT,Liftgate delivery,7,EA,95.00,665.00,4875.00,USD,Received,J. Lindqvist,CC-310 Warehouse,D. Reyes
+PO-10591,2026-12-03,V-1003,Tidewater Freight Solutions LLC,3,LTL-XD,"LTL freight, cross-dock transfer",2,EA,865.00,1730.00,4875.00,USD,Received,M. Okafor,CC-200 Facilities,S. Patel
+PO-10594,2026-11-05,V-1004,Juniper & Ash Office Supply,1,PPR-LTR,"Copy paper, letter, case of 10 reams",39,EA,49.99,1949.61,3174.61,USD,Received,R. Bowman,CC-200 Facilities,S. Patel
+PO-10594,2026-11-05,V-1004,Juniper & Ash Office Supply,2,CHR-ERG,"Task chair, mesh back",5,EA,245.00,1225.00,3174.61,USD,Received,T. Achebe,CC-310 Warehouse,D. Reyes

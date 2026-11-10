@@ -1,4 +1,4 @@
-# Scorecard: runs/v1
+# Scorecard: runs/dev-v1
 
 **Overall: 92.2 / 100**
 
@@ -10,6 +10,14 @@
 | Payment matching | 15 | 95% |
 | Unmatched payments found (F1) | 5 | 67% |
 | Numbers traceable to source | 10 | 100% |
+
+## At scale
+
+| Measure | Result |
+|---|---|
+| Decided without a human | 100% |
+| Sent to review (NEEDS_REVIEW) | 0% |
+| Wrong among those it decided alone | 8% (3 invoices, $7,900.34) |
 
 ## By exception type
 

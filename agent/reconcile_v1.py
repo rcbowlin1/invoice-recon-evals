@@ -1,8 +1,7 @@
-"""Invoice reconciliation agent.
+"""Invoice reconciliation agent, v1 (frozen baseline: OCR + regex, rule-based matching).
 
-    python agent/reconcile.py --extractor rules  --out runs/v1   # OCR + regex baseline, no model
-    python agent/reconcile.py --extractor claude --out runs/v2   # Claude reads the invoices (API)
-    python agent/reconcile.py --extractor precomputed --reads runs/v2/reads.json --out runs/v2
+    python agent/reconcile_v1.py --out runs/dev-v1                              # dev set
+    python agent/reconcile_v1.py --data holdout/data --out runs/holdout-v1      # holdout
 
 Design: a model may help *read* documents; code owns every match, every number
 and every status. Explanations are generated from the facts the code found.
@@ -19,12 +18,19 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
 TOL = 1.00
 
-AP_FILE = DATA / "LedgerLoop_AP_Invoices_Export_2026-11-01.csv"
-PO_FILE = DATA / "ProcureHub_PO_Export_2026-11-01.csv"
-BANK_FILE = next(DATA.glob("GVB_Operating_*.csv"))
+
+def set_data(d):
+    """Point the agent at a data folder (dev: data/, holdout: holdout/data/). Logic is unchanged."""
+    global DATA, AP_FILE, PO_FILE, BANK_FILE
+    DATA = Path(d) if Path(d).is_absolute() else ROOT / d
+    AP_FILE = next(DATA.glob("LedgerLoop_AP_Invoices_Export_*.csv"))
+    PO_FILE = next(DATA.glob("ProcureHub_PO_Export_*.csv"))
+    BANK_FILE = next(DATA.glob("GVB_Operating_*.csv"))
+
+
+set_data("data")
 
 FIELDS = ["vendor_name", "invoice_number", "invoice_date", "po_number", "subtotal", "tax", "total"]
 
@@ -284,7 +290,9 @@ def main():
     ap.add_argument("--reads", help="JSON of precomputed reads, keyed by PDF filename")
     ap.add_argument("--model", default="claude-sonnet-5-5")
     ap.add_argument("--out", default="runs/v1")
+    ap.add_argument("--data", default="data")
     a = ap.parse_args()
+    set_data(a.data)
     pos, vendors = load_pos()
     invoices, payments = reconcile(load_invoices(a.extractor, a.model, json.load(open(a.reads)) if a.reads else None), pos, vendors, load_bank())
     out = ROOT / a.out

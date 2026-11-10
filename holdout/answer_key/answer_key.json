@@ -1,0 +1,1209 @@
+{
+  "tolerance_usd": 1.0,
+  "invoices": [
+    {
+      "invoice_key": "INV-001",
+      "source": "inbox/Fernhaven_FTM-26-16700.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1013",
+      "vendor_invoice_number": "FTM-26-16700",
+      "invoice_date": "2026-11-25",
+      "po_number": "PO-10511",
+      "subtotal": 1735.0,
+      "tax": 0.0,
+      "total": 1735.0,
+      "po_total": 1735.0,
+      "bank_refs": [
+        "9689052152"
+      ],
+      "amount_paid": 1735.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-002",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55459",
+      "source_type": "ap_export",
+      "vendor_id": "V-1014",
+      "vendor_invoice_number": "Q058895",
+      "invoice_date": "2026-10-30",
+      "po_number": "PO-10515",
+      "subtotal": 310.0,
+      "tax": 22.48,
+      "total": 332.48,
+      "po_total": 310.0,
+      "bank_refs": [
+        "3872150064"
+      ],
+      "amount_paid": 332.48,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-003",
+      "source": "inbox/Osprey_OPC04952_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1015",
+      "vendor_invoice_number": "OPC04952",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10516",
+      "subtotal": 3131.75,
+      "tax": 172.25,
+      "total": 3304.0,
+      "po_total": 3131.75,
+      "bank_refs": [
+        "7198145255"
+      ],
+      "amount_paid": 3304.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-004",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55544",
+      "source_type": "ap_export",
+      "vendor_id": "V-1016",
+      "vendor_invoice_number": "BES-011177",
+      "invoice_date": "2026-11-22",
+      "po_number": "PO-10517",
+      "subtotal": 4076.2,
+      "tax": 244.57,
+      "total": 4320.77,
+      "po_total": 4076.2,
+      "bank_refs": [
+        "3460748163"
+      ],
+      "amount_paid": 4320.77,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-005",
+      "source": "inbox/Saltmarsh_SCP-7941.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1017",
+      "vendor_invoice_number": "SCP-7941",
+      "invoice_date": "2026-11-05",
+      "po_number": "PO-10521",
+      "subtotal": 4476.85,
+      "tax": 268.61,
+      "total": 4745.46,
+      "po_total": 4476.85,
+      "bank_refs": [
+        "4491625822"
+      ],
+      "amount_paid": 4745.46,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-006",
+      "source": "inbox/Harrowgate_HFW43032.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1018",
+      "vendor_invoice_number": "HFW43032",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10525",
+      "subtotal": 17628.4,
+      "tax": 1233.99,
+      "total": 18862.39,
+      "po_total": 17628.4,
+      "bank_refs": [
+        "1794133473"
+      ],
+      "amount_paid": 18862.39,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-007",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55535",
+      "source_type": "ap_export",
+      "vendor_id": "V-1019",
+      "vendor_invoice_number": "TPC-58603",
+      "invoice_date": "2026-11-19",
+      "po_number": "PO-10529",
+      "subtotal": 1576.0,
+      "tax": 0.0,
+      "total": 1576.0,
+      "po_total": 1576.0,
+      "bank_refs": [
+        "6385026848"
+      ],
+      "amount_paid": 1576.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-008",
+      "source": "inbox/VVStudio_VV-26-24502.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1020",
+      "vendor_invoice_number": "VV-26-24502",
+      "invoice_date": "2026-11-08",
+      "po_number": "PO-10533",
+      "subtotal": 551.0,
+      "tax": 0.0,
+      "total": 551.0,
+      "po_total": 551.0,
+      "bank_refs": [
+        "7261285951"
+      ],
+      "amount_paid": 551.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-009",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55453",
+      "source_type": "ap_export",
+      "vendor_id": "V-1003",
+      "vendor_invoice_number": "TFS-37119",
+      "invoice_date": "2026-10-28",
+      "po_number": "PO-10534",
+      "subtotal": 3315.0,
+      "tax": 0.0,
+      "total": 3315.0,
+      "po_total": 3315.0,
+      "bank_refs": [
+        "2082413266"
+      ],
+      "amount_paid": 3315.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-010",
+      "source": "inbox/Pinehollow_PJ-41452.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1009",
+      "vendor_invoice_number": "PJ-41452",
+      "invoice_date": "2026-11-03",
+      "po_number": "PO-10535",
+      "subtotal": 3070.0,
+      "tax": 0.0,
+      "total": 3070.0,
+      "po_total": 3070.0,
+      "bank_refs": [
+        "5973804040"
+      ],
+      "amount_paid": 3070.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-011",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55447",
+      "source_type": "ap_export",
+      "vendor_id": "V-1004",
+      "vendor_invoice_number": "JA-54438",
+      "invoice_date": "2026-10-27",
+      "po_number": "PO-10539",
+      "subtotal": 337.5,
+      "tax": 18.56,
+      "total": 356.06,
+      "po_total": 337.5,
+      "bank_refs": [
+        "8159488361"
+      ],
+      "amount_paid": 356.06,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-012",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55512",
+      "source_type": "ap_export",
+      "vendor_id": "V-1013",
+      "vendor_invoice_number": "FTM-26-16705",
+      "invoice_date": "2026-11-16",
+      "po_number": "PO-10542",
+      "subtotal": 995.15,
+      "tax": 0.0,
+      "total": 995.15,
+      "po_total": 995.15,
+      "bank_refs": [
+        "7452904920"
+      ],
+      "amount_paid": 995.15,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-013",
+      "source": "inbox/Brambleton_BES-011184_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1016",
+      "vendor_invoice_number": "BES-011184",
+      "invoice_date": "2026-12-02",
+      "po_number": "PO-10546",
+      "subtotal": 4904.75,
+      "tax": 294.29,
+      "total": 5199.04,
+      "po_total": 4904.75,
+      "bank_refs": [
+        "8537216003"
+      ],
+      "amount_paid": 5199.04,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-014",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55497",
+      "source_type": "ap_export",
+      "vendor_id": "V-1017",
+      "vendor_invoice_number": "SCP-7946",
+      "invoice_date": "2026-11-13",
+      "po_number": "PO-10550",
+      "subtotal": 1135.6,
+      "tax": 68.14,
+      "total": 1203.74,
+      "po_total": 1135.6,
+      "bank_refs": [
+        "10494"
+      ],
+      "amount_paid": 1203.74,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean_check",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-015",
+      "source": "inbox/Thistlewood_TPC-58604.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1019",
+      "vendor_invoice_number": "TPC-58604",
+      "invoice_date": "2026-10-19",
+      "po_number": "PO-10552",
+      "subtotal": 1110.0,
+      "tax": 0.0,
+      "total": 1110.0,
+      "po_total": 1110.0,
+      "bank_refs": [
+        "10491"
+      ],
+      "amount_paid": 1110.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean_check",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-016",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55596",
+      "source_type": "ap_export",
+      "vendor_id": "V-1015",
+      "vendor_invoice_number": "OPC04958",
+      "invoice_date": "2026-12-01",
+      "po_number": "PO-10556",
+      "subtotal": 3438.0,
+      "tax": 189.09,
+      "total": 3627.09,
+      "po_total": 3438.0,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 3627.09,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "multi_pay",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-017",
+      "source": "inbox/Osprey_OPC04962_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1015",
+      "vendor_invoice_number": "OPC04962",
+      "invoice_date": "2026-11-19",
+      "po_number": "PO-10557",
+      "subtotal": 11856.8,
+      "tax": 652.12,
+      "total": 12508.92,
+      "po_total": 11856.8,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 12508.92,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "multi_pay",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-018",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55516",
+      "source_type": "ap_export",
+      "vendor_id": "V-1015",
+      "vendor_invoice_number": "OPC04967",
+      "invoice_date": "2026-11-16",
+      "po_number": "PO-10558",
+      "subtotal": 954.0,
+      "tax": 52.47,
+      "total": 1006.47,
+      "po_total": 954.0,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 1006.47,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "multi_pay",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-019",
+      "source": "inbox/Quillmark_Q058898.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1014",
+      "vendor_invoice_number": "Q058898",
+      "invoice_date": "2026-11-01",
+      "po_number": "PO-10560",
+      "subtotal": 3339.68,
+      "tax": 242.13,
+      "total": 3581.81,
+      "po_total": 3339.2,
+      "bank_refs": [
+        "9784861777"
+      ],
+      "amount_paid": 3581.81,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "rounding",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-020",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55519",
+      "source_type": "ap_export",
+      "vendor_id": "V-1020",
+      "vendor_invoice_number": "VV-26-24508",
+      "invoice_date": "2026-11-17",
+      "po_number": "PO-10562",
+      "subtotal": 285.0,
+      "tax": 0.0,
+      "total": 285.0,
+      "po_total": 285.0,
+      "bank_refs": [
+        "9949012401"
+      ],
+      "amount_paid": 284.65,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "rounding",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-021",
+      "source": "inbox/Saltmarsh_SCP-7948_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1017",
+      "vendor_invoice_number": "SCP-7948",
+      "invoice_date": "2026-11-18",
+      "po_number": "PO-10566",
+      "subtotal": 4142.15,
+      "tax": 248.53,
+      "total": 4390.68,
+      "po_total": 3954.95,
+      "bank_refs": [
+        "6731716226"
+      ],
+      "amount_paid": 4390.68,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "scenario": "amount_mismatch",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-022",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55473",
+      "source_type": "ap_export",
+      "vendor_id": "V-1013",
+      "vendor_invoice_number": "FTM-26-16712",
+      "invoice_date": "2026-11-04",
+      "po_number": "PO-10568",
+      "subtotal": 1698.4,
+      "tax": 0.0,
+      "total": 1698.4,
+      "po_total": 1616.8,
+      "bank_refs": [
+        "9364561847"
+      ],
+      "amount_paid": 1698.4,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "scenario": "amount_mismatch",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-023",
+      "source": "inbox/Tidewater_TFS-37123.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1003",
+      "vendor_invoice_number": "TFS-37123",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10569",
+      "subtotal": 1878.0,
+      "tax": 0.0,
+      "total": 1878.0,
+      "po_total": 1730.0,
+      "bank_refs": [
+        "6858011313"
+      ],
+      "amount_paid": 1878.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "scenario": "amount_mismatch",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-024",
+      "source": "inbox/Quillmark_Q058899.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1014",
+      "vendor_invoice_number": "Q058899",
+      "invoice_date": "2026-10-31",
+      "po_number": "PO-10572",
+      "subtotal": 7717.0,
+      "tax": 559.48,
+      "total": 8276.48,
+      "po_total": 7717.0,
+      "bank_refs": [
+        "6946915666"
+      ],
+      "amount_paid": 8276.48,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "duplicate_unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-024D",
+      "source": "inbox/Quillmark_Q058899-1.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1014",
+      "vendor_invoice_number": "Q058899",
+      "invoice_date": "2026-11-21",
+      "po_number": "PO-10572",
+      "subtotal": 7717.0,
+      "tax": 559.48,
+      "total": 8276.48,
+      "po_total": 7717.0,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "scenario": "duplicate_unpaid",
+      "duplicate_of": "INV-024"
+    },
+    {
+      "invoice_key": "INV-025",
+      "source": "inbox/Thistlewood_TPC-58606.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1019",
+      "vendor_invoice_number": "TPC-58606",
+      "invoice_date": "2026-11-26",
+      "po_number": "PO-10575",
+      "subtotal": 690.0,
+      "tax": 0.0,
+      "total": 690.0,
+      "po_total": 690.0,
+      "bank_refs": [
+        "2017032540"
+      ],
+      "amount_paid": 690.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "scenario": "duplicate_paid_twice",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-025D",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55579",
+      "source_type": "ap_export",
+      "vendor_id": "V-1019",
+      "vendor_invoice_number": "TPC58606",
+      "invoice_date": "2026-11-26",
+      "po_number": "PO-10575",
+      "subtotal": 690.0,
+      "tax": 0.0,
+      "total": 690.0,
+      "po_total": 690.0,
+      "bank_refs": [
+        "10497"
+      ],
+      "amount_paid": 690.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE",
+        "DUPLICATE_PAYMENT"
+      ],
+      "scenario": "duplicate_paid_twice",
+      "duplicate_of": "INV-025"
+    },
+    {
+      "invoice_key": "INV-026",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55550",
+      "source_type": "ap_export",
+      "vendor_id": "V-1004",
+      "vendor_invoice_number": "JA-54445",
+      "invoice_date": "2026-11-24",
+      "po_number": "PO-10579",
+      "subtotal": 4178.34,
+      "tax": 229.81,
+      "total": 4408.15,
+      "po_total": 4178.34,
+      "bank_refs": [
+        "9895382463"
+      ],
+      "amount_paid": 4408.15,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "duplicate_unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-026D",
+      "source": "inbox/Juniper_JA-54445.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1004",
+      "vendor_invoice_number": "JA-54445",
+      "invoice_date": "2026-11-24",
+      "po_number": "PO-10579",
+      "subtotal": 4178.34,
+      "tax": 229.81,
+      "total": 4408.15,
+      "po_total": 4178.34,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "scenario": "duplicate_unpaid",
+      "duplicate_of": "INV-026"
+    },
+    {
+      "invoice_key": "INV-027",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55479",
+      "source_type": "ap_export",
+      "vendor_id": "V-1018",
+      "vendor_invoice_number": "HFW43034",
+      "invoice_date": "2026-11-12",
+      "po_number": "PO-10581",
+      "subtotal": 4957.6,
+      "tax": 347.03,
+      "total": 5304.63,
+      "po_total": 4957.6,
+      "bank_refs": [
+        "8640184633"
+      ],
+      "amount_paid": 2652.32,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "PARTIAL_PAYMENT"
+      ],
+      "scenario": "partial_payment",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-028",
+      "source": "inbox/Pinehollow_PJ-41457_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1009",
+      "vendor_invoice_number": "PJ-41457",
+      "invoice_date": "2026-10-23",
+      "po_number": "PO-10585",
+      "subtotal": 10470.0,
+      "tax": 0.0,
+      "total": 10470.0,
+      "po_total": 10470.0,
+      "bank_refs": [
+        "2755052369"
+      ],
+      "amount_paid": 4188.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "PARTIAL_PAYMENT"
+      ],
+      "scenario": "partial_payment",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-029",
+      "source": "inbox/VVStudio_VV-26-24515.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1020",
+      "vendor_invoice_number": "VV-26-24515",
+      "invoice_date": "2026-11-10",
+      "po_number": null,
+      "subtotal": 1262.0,
+      "tax": 0.0,
+      "total": 1262.0,
+      "po_total": null,
+      "bank_refs": [
+        "4546658715"
+      ],
+      "amount_paid": 1262.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "scenario": "missing_po",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-030",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55568",
+      "source_type": "ap_export",
+      "vendor_id": "V-1015",
+      "vendor_invoice_number": "OPC04970",
+      "invoice_date": "2026-11-26",
+      "po_number": null,
+      "subtotal": 1413.5,
+      "tax": 77.74,
+      "total": 1491.24,
+      "po_total": null,
+      "bank_refs": [
+        "8530754766"
+      ],
+      "amount_paid": 1491.24,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "scenario": "missing_po",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-031",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55433",
+      "source_type": "ap_export",
+      "vendor_id": "V-1009",
+      "vendor_invoice_number": "PJ-41464",
+      "invoice_date": "2026-10-23",
+      "po_number": null,
+      "subtotal": 5700.0,
+      "tax": 0.0,
+      "total": 5700.0,
+      "po_total": null,
+      "bank_refs": [
+        "1103817075"
+      ],
+      "amount_paid": 5700.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "scenario": "missing_po",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-032",
+      "source": "inbox/Fernhaven_FTM-26-16714_scan.pdf",
+      "source_type": "scanned_pdf",
+      "vendor_id": "V-1013",
+      "vendor_invoice_number": "FTM-26-16714",
+      "invoice_date": "2026-12-02",
+      "po_number": null,
+      "subtotal": 2935.0,
+      "tax": 0.0,
+      "total": 2935.0,
+      "po_total": null,
+      "bank_refs": [
+        "3163650795"
+      ],
+      "amount_paid": 2935.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "scenario": "missing_po",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-033",
+      "source": "inbox/Brambleton_BES-011190.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1016",
+      "vendor_invoice_number": "BES-011190",
+      "invoice_date": "2026-12-15",
+      "po_number": "PO-10587",
+      "subtotal": 3602.1,
+      "tax": 216.13,
+      "total": 3818.23,
+      "po_total": 3602.1,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "scenario": "unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-034",
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55605",
+      "source_type": "ap_export",
+      "vendor_id": "V-1017",
+      "vendor_invoice_number": "SCP-7951",
+      "invoice_date": "2026-12-18",
+      "po_number": "PO-10589",
+      "subtotal": 2137.45,
+      "tax": 128.25,
+      "total": 2265.7,
+      "po_total": 2137.45,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "scenario": "unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-035",
+      "source": "inbox/Harrowgate_HFW43041.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1018",
+      "vendor_invoice_number": "HFW43041",
+      "invoice_date": "2026-12-12",
+      "po_number": "PO-10590",
+      "subtotal": 4818.0,
+      "tax": 337.26,
+      "total": 5155.26,
+      "po_total": 4818.0,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "scenario": "unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-036",
+      "source": "inbox/Tidewater_TFS-37130.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1003",
+      "vendor_invoice_number": "TFS-37130",
+      "invoice_date": "2026-12-17",
+      "po_number": "PO-10591",
+      "subtotal": 4875.0,
+      "tax": 0.0,
+      "total": 4875.0,
+      "po_total": 4875.0,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "scenario": "unpaid",
+      "duplicate_of": null
+    },
+    {
+      "invoice_key": "INV-037",
+      "source": "inbox/Juniper_JA-54449.pdf",
+      "source_type": "pdf",
+      "vendor_id": "V-1004",
+      "vendor_invoice_number": "JA-54449",
+      "invoice_date": "2026-11-11",
+      "po_number": "PO-10594",
+      "subtotal": 3174.61,
+      "tax": 174.6,
+      "total": 3349.21,
+      "po_total": 3174.61,
+      "bank_refs": [
+        "2780376842"
+      ],
+      "amount_paid": 3349.21,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "scenario": "clean",
+      "duplicate_of": null
+    }
+  ],
+  "vendor_payments": [
+    {
+      "bank_ref": "9689052152",
+      "date": "2026-12-24",
+      "amount": 1735.0,
+      "vendor_id": "V-1013",
+      "invoice_keys": [
+        "INV-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "3872150064",
+      "date": "2026-11-25",
+      "amount": 332.48,
+      "vendor_id": "V-1014",
+      "invoice_keys": [
+        "INV-002"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "7198145255",
+      "date": "2026-12-10",
+      "amount": 3304.0,
+      "vendor_id": "V-1015",
+      "invoice_keys": [
+        "INV-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "3460748163",
+      "date": "2026-12-19",
+      "amount": 4320.77,
+      "vendor_id": "V-1016",
+      "invoice_keys": [
+        "INV-004"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "4491625822",
+      "date": "2026-11-30",
+      "amount": 4745.46,
+      "vendor_id": "V-1017",
+      "invoice_keys": [
+        "INV-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "1794133473",
+      "date": "2026-12-09",
+      "amount": 18862.39,
+      "vendor_id": "V-1018",
+      "invoice_keys": [
+        "INV-006"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "6385026848",
+      "date": "2026-12-03",
+      "amount": 1576.0,
+      "vendor_id": "V-1019",
+      "invoice_keys": [
+        "INV-007"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "7261285951",
+      "date": "2026-11-21",
+      "amount": 551.0,
+      "vendor_id": "V-1020",
+      "invoice_keys": [
+        "INV-008"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "2082413266",
+      "date": "2026-11-10",
+      "amount": 3315.0,
+      "vendor_id": "V-1003",
+      "invoice_keys": [
+        "INV-009"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "5973804040",
+      "date": "2026-11-18",
+      "amount": 3070.0,
+      "vendor_id": "V-1009",
+      "invoice_keys": [
+        "INV-010"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "8159488361",
+      "date": "2026-11-25",
+      "amount": 356.06,
+      "vendor_id": "V-1004",
+      "invoice_keys": [
+        "INV-011"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "7452904920",
+      "date": "2026-12-14",
+      "amount": 995.15,
+      "vendor_id": "V-1013",
+      "invoice_keys": [
+        "INV-012"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "8537216003",
+      "date": "2026-12-30",
+      "amount": 5199.04,
+      "vendor_id": "V-1016",
+      "invoice_keys": [
+        "INV-013"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "10494",
+      "date": "2026-12-09",
+      "amount": 1203.74,
+      "vendor_id": "V-1017",
+      "invoice_keys": [
+        "INV-014"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "10491",
+      "date": "2026-11-09",
+      "amount": 1110.0,
+      "vendor_id": "V-1019",
+      "invoice_keys": [
+        "INV-015"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "9784861777",
+      "date": "2026-11-28",
+      "amount": 3581.81,
+      "vendor_id": "V-1014",
+      "invoice_keys": [
+        "INV-019"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "9949012401",
+      "date": "2026-12-02",
+      "amount": 284.65,
+      "vendor_id": "V-1020",
+      "invoice_keys": [
+        "INV-020"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "6731716226",
+      "date": "2026-12-15",
+      "amount": 4390.68,
+      "vendor_id": "V-1017",
+      "invoice_keys": [
+        "INV-021"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "9364561847",
+      "date": "2026-11-29",
+      "amount": 1698.4,
+      "vendor_id": "V-1013",
+      "invoice_keys": [
+        "INV-022"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "6858011313",
+      "date": "2026-11-27",
+      "amount": 1878.0,
+      "vendor_id": "V-1003",
+      "invoice_keys": [
+        "INV-023"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "6946915666",
+      "date": "2026-11-30",
+      "amount": 8276.48,
+      "vendor_id": "V-1014",
+      "invoice_keys": [
+        "INV-024"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "2017032540",
+      "date": "2026-12-08",
+      "amount": 690.0,
+      "vendor_id": "V-1019",
+      "invoice_keys": [
+        "INV-025"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "10497",
+      "date": "2026-12-17",
+      "amount": 690.0,
+      "vendor_id": "V-1019",
+      "invoice_keys": [
+        "INV-025D"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "9895382463",
+      "date": "2026-12-22",
+      "amount": 4408.15,
+      "vendor_id": "V-1004",
+      "invoice_keys": [
+        "INV-026"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "8640184633",
+      "date": "2026-12-11",
+      "amount": 2652.32,
+      "vendor_id": "V-1018",
+      "invoice_keys": [
+        "INV-027"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "2755052369",
+      "date": "2026-11-03",
+      "amount": 4188.0,
+      "vendor_id": "V-1009",
+      "invoice_keys": [
+        "INV-028"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "4546658715",
+      "date": "2026-11-23",
+      "amount": 1262.0,
+      "vendor_id": "V-1020",
+      "invoice_keys": [
+        "INV-029"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "8530754766",
+      "date": "2026-12-21",
+      "amount": 1491.24,
+      "vendor_id": "V-1015",
+      "invoice_keys": [
+        "INV-030"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "1103817075",
+      "date": "2026-11-02",
+      "amount": 5700.0,
+      "vendor_id": "V-1009",
+      "invoice_keys": [
+        "INV-031"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "3163650795",
+      "date": "2026-12-27",
+      "amount": 2935.0,
+      "vendor_id": "V-1013",
+      "invoice_keys": [
+        "INV-032"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "2780376842",
+      "date": "2026-12-11",
+      "amount": 3349.21,
+      "vendor_id": "V-1004",
+      "invoice_keys": [
+        "INV-037"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "8337428150",
+      "date": "2026-12-08",
+      "amount": 17142.48,
+      "vendor_id": "V-1015",
+      "invoice_keys": [
+        "INV-016",
+        "INV-017",
+        "INV-018"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "bank_ref": "2741855781",
+      "date": "2026-11-25",
+      "amount": 2150.0,
+      "vendor_id": "V-1014",
+      "invoice_keys": [],
+      "status": "UNMATCHED_PAYMENT"
+    },
+    {
+      "bank_ref": "7354774520",
+      "date": "2026-12-07",
+      "amount": 1385.0,
+      "vendor_id": "V-1003",
+      "invoice_keys": [],
+      "status": "UNMATCHED_PAYMENT"
+    },
+    {
+      "bank_ref": "3696305412",
+      "date": "2026-12-14",
+      "amount": 918.6,
+      "vendor_id": "V-1016",
+      "invoice_keys": [],
+      "status": "UNMATCHED_PAYMENT"
+    }
+  ],
+  "non_vendor_bank_lines": 17
+}

@@ -10,7 +10,12 @@
     "exception_recall": 1.0,
     "payment_matching": 1.0,
     "unmatched_payments": 1.0,
-    "traceable_numbers": 1.0
+    "traceable_numbers": 1.0,
+    "auto_decided_rate": 1.0,
+    "auto_decided_error_rate": 0.0,
+    "review_rate": 0.0,
+    "silent_errors": 0,
+    "silent_error_dollars": 0.0
   },
   "judge": null
 }

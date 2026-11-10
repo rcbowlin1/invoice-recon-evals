@@ -1,0 +1,1262 @@
+{
+  "invoices": [
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55433",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1009",
+      "vendor_name": "PINEHOLLOW JANITORIAL SVCS",
+      "invoice_number": "PJ-41464",
+      "invoice_date": "10/23/2026",
+      "po_number": null,
+      "subtotal": 5700.0,
+      "tax": 0.0,
+      "total": 5700.0,
+      "bank_refs": [
+        "1103817075"
+      ],
+      "amount_paid": 5700.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "notes": [
+        "No purchase order on the invoice."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55447",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1004",
+      "vendor_name": "Juniper and Ash Office Supply",
+      "invoice_number": "JA-54438",
+      "invoice_date": "10/27/2026",
+      "po_number": "PO-10539",
+      "subtotal": 337.5,
+      "tax": 18.56,
+      "total": 356.06,
+      "bank_refs": [
+        "8159488361"
+      ],
+      "amount_paid": 356.06,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55453",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1003",
+      "vendor_name": "Tidewater Freight Sol.",
+      "invoice_number": "TFS-37119",
+      "invoice_date": "10/28/2026",
+      "po_number": "PO-10534",
+      "subtotal": 3315.0,
+      "tax": 0.0,
+      "total": 3315.0,
+      "bank_refs": [
+        "2082413266"
+      ],
+      "amount_paid": 3315.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55459",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1014",
+      "vendor_name": "QUILLMARK SIGNAGE AND DISPLAY LLC",
+      "invoice_number": "Q058895",
+      "invoice_date": "10/30/2026",
+      "po_number": "PO-10515",
+      "subtotal": 310.0,
+      "tax": 22.48,
+      "total": 332.48,
+      "bank_refs": [
+        "3872150064"
+      ],
+      "amount_paid": 332.48,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55473",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1013",
+      "vendor_name": "FERNHAVEN TEXTILE MILLS",
+      "invoice_number": "FTM-26-16712",
+      "invoice_date": "11/04/2026",
+      "po_number": "PO-10568",
+      "subtotal": 1698.4,
+      "tax": 0.0,
+      "total": 1698.4,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "notes": [
+        "Billed 1,698.40 before tax against PO PO-10568 for 1,616.80 (+81.60)."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55479",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1018",
+      "vendor_name": "HARROWGATE FURNITURE WORKS",
+      "invoice_number": "HFW43034",
+      "invoice_date": "11/12/2026",
+      "po_number": "PO-10581",
+      "subtotal": 4957.6,
+      "tax": 347.03,
+      "total": 5304.63,
+      "bank_refs": [
+        "8640184633"
+      ],
+      "amount_paid": 2652.32,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "PARTIAL_PAYMENT"
+      ],
+      "notes": [
+        "Paid 2,652.32 of 5,304.63; 2,652.31 still owed."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55497",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1017",
+      "vendor_name": "SALTMARSH CLEANING PRODUCTS INC",
+      "invoice_number": "SCP-7946",
+      "invoice_date": "11/13/2026",
+      "po_number": "PO-10550",
+      "subtotal": 1135.6,
+      "tax": 68.14,
+      "total": 1203.74,
+      "bank_refs": [
+        "10494"
+      ],
+      "amount_paid": 1203.74,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55512",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1013",
+      "vendor_name": "FERNHAVEN TEXTILE MILLS",
+      "invoice_number": "FTM-26-16705",
+      "invoice_date": "11/16/2026",
+      "po_number": "PO-10542",
+      "subtotal": 995.15,
+      "tax": 0.0,
+      "total": 995.15,
+      "bank_refs": [
+        "7452904920"
+      ],
+      "amount_paid": 995.15,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55516",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1015",
+      "vendor_name": "OSPREY POINT CERAMICS LTD",
+      "invoice_number": "OPC04967",
+      "invoice_date": "11/16/2026",
+      "po_number": "PO-10558",
+      "subtotal": 954.0,
+      "tax": 52.47,
+      "total": 1006.47,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 1006.47,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55519",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1020",
+      "vendor_name": "VELLUM & VINE CREATIVE",
+      "invoice_number": "VV-26-24508",
+      "invoice_date": "11/17/2026",
+      "po_number": "PO-10562",
+      "subtotal": 285.0,
+      "tax": 0.0,
+      "total": 285.0,
+      "bank_refs": [
+        "9949012401"
+      ],
+      "amount_paid": 284.65,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55535",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1019",
+      "vendor_name": "Thistlewood Pallet & Crate Co.",
+      "invoice_number": "TPC-58603",
+      "invoice_date": "11/19/2026",
+      "po_number": "PO-10529",
+      "subtotal": 1576.0,
+      "tax": 0.0,
+      "total": 1576.0,
+      "bank_refs": [
+        "6385026848"
+      ],
+      "amount_paid": 1576.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55544",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1016",
+      "vendor_name": "Brambleton Electric Supply Co",
+      "invoice_number": "BES-011177",
+      "invoice_date": "11/22/2026",
+      "po_number": "PO-10517",
+      "subtotal": 4076.2,
+      "tax": 244.57,
+      "total": 4320.77,
+      "bank_refs": [
+        "3460748163"
+      ],
+      "amount_paid": 4320.77,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55550",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1004",
+      "vendor_name": "JUNIPER & ASH",
+      "invoice_number": "JA-54445",
+      "invoice_date": "11/24/2026",
+      "po_number": "PO-10579",
+      "subtotal": 4178.34,
+      "tax": 229.81,
+      "total": 4408.15,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "notes": [
+        "Same vendor and amount as invoice JA-54445 (inbox/Juniper_JA-54445.pdf); treat as a duplicate, do not pay."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55568",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1015",
+      "vendor_name": "Osprey Point Ceramics",
+      "invoice_number": "OPC04970",
+      "invoice_date": "11/26/2026",
+      "po_number": null,
+      "subtotal": 1413.5,
+      "tax": 77.74,
+      "total": 1491.24,
+      "bank_refs": [
+        "8530754766"
+      ],
+      "amount_paid": 1491.24,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "notes": [
+        "No purchase order on the invoice."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55579",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1019",
+      "vendor_name": "Thistlewood Pallet & Crate Co.",
+      "invoice_number": "TPC58606",
+      "invoice_date": "11/26/2026",
+      "po_number": "PO-10575",
+      "subtotal": 690.0,
+      "tax": 0.0,
+      "total": 690.0,
+      "bank_refs": [
+        "10497"
+      ],
+      "amount_paid": 690.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE",
+        "DUPLICATE_PAYMENT"
+      ],
+      "notes": [
+        "Same vendor and amount as invoice TPC-58606 (inbox/Thistlewood_TPC-58606.pdf); treat as a duplicate, do not pay.",
+        "Both were paid (2017032540 and 10497); recover 690.00."
+      ],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55596",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1015",
+      "vendor_name": "Osprey Point Ceramics",
+      "invoice_number": "OPC04958",
+      "invoice_date": "12/01/2026",
+      "po_number": "PO-10556",
+      "subtotal": 3438.0,
+      "tax": 189.09,
+      "total": 3627.09,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 3627.09,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55605",
+      "source_type": "ap_export",
+      "read_mode": "csv",
+      "confidence": "high",
+      "vendor_id": "V-1017",
+      "vendor_name": "Saltmarsh Cleaning Products",
+      "invoice_number": "SCP-7951",
+      "invoice_date": "12/18/2026",
+      "po_number": "PO-10589",
+      "subtotal": 2137.45,
+      "tax": 128.25,
+      "total": 2265.7,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Brambleton_BES-011184_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1016",
+      "vendor_name": "Brambleton Electric Supply Company",
+      "invoice_number": "BES-011184",
+      "invoice_date": "2026-12-02",
+      "po_number": "PO-10546",
+      "subtotal": 4904.75,
+      "tax": 294.29,
+      "total": 5199.04,
+      "bank_refs": [
+        "8537216003"
+      ],
+      "amount_paid": 5199.04,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Brambleton_BES-011190.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1016",
+      "vendor_name": "Brambleton Electric Supply Company",
+      "invoice_number": "BES-011190",
+      "invoice_date": "2026-12-15",
+      "po_number": "PO-10587",
+      "subtotal": 3602.1,
+      "tax": 216.13,
+      "total": 3818.23,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Fernhaven_FTM-26-16700.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1013",
+      "vendor_name": "Fernhaven Textiles",
+      "invoice_number": "FTM-26-16700",
+      "invoice_date": "2026-11-25",
+      "po_number": "PO-10511",
+      "subtotal": 1735.0,
+      "tax": 0.0,
+      "total": 1735.0,
+      "bank_refs": [
+        "9689052152"
+      ],
+      "amount_paid": 1735.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Fernhaven_FTM-26-16714_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1013",
+      "vendor_name": "Fernhaven Textiles",
+      "invoice_number": "FTM-26-16714",
+      "invoice_date": "2026-12-02",
+      "po_number": null,
+      "subtotal": 2935.0,
+      "tax": 0.0,
+      "total": 2935.0,
+      "bank_refs": [
+        "3163650795"
+      ],
+      "amount_paid": 2935.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "notes": [
+        "No purchase order on the invoice."
+      ],
+      "review": []
+    },
+    {
+      "source": "inbox/Harrowgate_HFW43032.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1018",
+      "vendor_name": "Harrowgate Furn. Works",
+      "invoice_number": "HFW43032",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10525",
+      "subtotal": 17628.4,
+      "tax": 1233.99,
+      "total": 18862.39,
+      "bank_refs": [
+        "1794133473"
+      ],
+      "amount_paid": 18862.39,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Harrowgate_HFW43041.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1018",
+      "vendor_name": "Harrowgate Furn. Works",
+      "invoice_number": "HFW43041",
+      "invoice_date": "2026-12-12",
+      "po_number": "PO-10590",
+      "subtotal": 4818.0,
+      "tax": 337.26,
+      "total": 5155.26,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Juniper_JA-54445.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1004",
+      "vendor_name": "Juniper & Ash",
+      "invoice_number": "JA-54445",
+      "invoice_date": "2026-11-24",
+      "po_number": "PO-10579",
+      "subtotal": 4178.34,
+      "tax": 229.81,
+      "total": 4408.15,
+      "bank_refs": [
+        "9895382463"
+      ],
+      "amount_paid": 4408.15,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Juniper_JA-54449.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1004",
+      "vendor_name": "Juniper & Ash",
+      "invoice_number": "JA-54449",
+      "invoice_date": "2026-11-11",
+      "po_number": "PO-10594",
+      "subtotal": 3174.61,
+      "tax": 174.6,
+      "total": 3349.21,
+      "bank_refs": [
+        "2780376842"
+      ],
+      "amount_paid": 3349.21,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Osprey_OPC04952_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1015",
+      "vendor_name": "Osprey Pt. Ceramics",
+      "invoice_number": "OPC04952",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10516",
+      "subtotal": 3131.75,
+      "tax": 172.25,
+      "total": 3304.0,
+      "bank_refs": [
+        "7198145255"
+      ],
+      "amount_paid": 3304.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Osprey_OPC04962_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1015",
+      "vendor_name": "Osprey Pt. Ceramics",
+      "invoice_number": "OPC04962",
+      "invoice_date": "2026-11-19",
+      "po_number": "PO-10557",
+      "subtotal": 11856.8,
+      "tax": 652.12,
+      "total": 12508.92,
+      "bank_refs": [
+        "8337428150"
+      ],
+      "amount_paid": 12508.92,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Pinehollow_PJ-41452.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1009",
+      "vendor_name": "Pinehollow Janitorial",
+      "invoice_number": "PJ-41452",
+      "invoice_date": "2026-11-03",
+      "po_number": "PO-10535",
+      "subtotal": 3070.0,
+      "tax": 0.0,
+      "total": 3070.0,
+      "bank_refs": [
+        "5973804040"
+      ],
+      "amount_paid": 3070.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Pinehollow_PJ-41457_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1009",
+      "vendor_name": "Pinehollow Janitorial",
+      "invoice_number": "PJ-41457",
+      "invoice_date": "2026-10-23",
+      "po_number": "PO-10585",
+      "subtotal": 10470.0,
+      "tax": 0.0,
+      "total": 10470.0,
+      "bank_refs": [
+        "2755052369"
+      ],
+      "amount_paid": 4188.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "PARTIAL_PAYMENT"
+      ],
+      "notes": [
+        "Paid 4,188.00 of 10,470.00; 6,282.00 still owed."
+      ],
+      "review": []
+    },
+    {
+      "source": "inbox/Quillmark_Q058898.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1014",
+      "vendor_name": "Quillmark Signs & Display",
+      "invoice_number": "Q058898",
+      "invoice_date": "2026-11-01",
+      "po_number": "PO-10560",
+      "subtotal": 3339.68,
+      "tax": 242.13,
+      "total": 3581.81,
+      "bank_refs": [
+        "9784861777"
+      ],
+      "amount_paid": 3581.81,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Quillmark_Q058899-1.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1014",
+      "vendor_name": "Quillmark Signs & Display",
+      "invoice_number": "Q058899",
+      "invoice_date": "2026-11-21",
+      "po_number": "PO-10572",
+      "subtotal": 7717.0,
+      "tax": 559.48,
+      "total": 8276.48,
+      "bank_refs": [
+        "2741855781"
+      ],
+      "amount_paid": 2150.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE",
+        "DUPLICATE_PAYMENT",
+        "PARTIAL_PAYMENT"
+      ],
+      "notes": [
+        "Same vendor and amount as invoice Q058899 (inbox/Quillmark_Q058899.pdf); treat as a duplicate, do not pay.",
+        "Both were paid (6946915666 and 2741855781); recover 2,150.00.",
+        "Paid 2,150.00 of 8,276.48; 6,126.48 still owed."
+      ],
+      "review": []
+    },
+    {
+      "source": "inbox/Quillmark_Q058899.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1014",
+      "vendor_name": "Quillmark Signs & Display",
+      "invoice_number": "Q058899",
+      "invoice_date": "2026-10-31",
+      "po_number": "PO-10572",
+      "subtotal": 7717.0,
+      "tax": 559.48,
+      "total": 8276.48,
+      "bank_refs": [
+        "6946915666"
+      ],
+      "amount_paid": 8276.48,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Saltmarsh_SCP-7941.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1017",
+      "vendor_name": "Saltmarsh Cleaning Prod., Inc.",
+      "invoice_number": "SCP-7941",
+      "invoice_date": "2026-11-05",
+      "po_number": "PO-10521",
+      "subtotal": 4476.85,
+      "tax": 268.61,
+      "total": 4745.46,
+      "bank_refs": [
+        "4491625822"
+      ],
+      "amount_paid": 4745.46,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Saltmarsh_SCP-7948_scan.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "medium",
+      "vendor_id": "V-1017",
+      "vendor_name": "Saltmarsh Cleaning Prod., Inc.",
+      "invoice_number": "SCP-7948",
+      "invoice_date": "2026-11-18",
+      "po_number": "PO-10566",
+      "subtotal": 4142.15,
+      "tax": 248.53,
+      "total": 4390.68,
+      "bank_refs": [
+        "6731716226"
+      ],
+      "amount_paid": 4390.68,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "notes": [
+        "Billed 4,142.15 before tax against PO PO-10566 for 3,954.95 (+187.20)."
+      ],
+      "review": []
+    },
+    {
+      "source": "inbox/Thistlewood_TPC-58604.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1019",
+      "vendor_name": "Thistlewood Pallet and Crate",
+      "invoice_number": "TPC-58604",
+      "invoice_date": "2026-10-19",
+      "po_number": "PO-10552",
+      "subtotal": 1110.0,
+      "tax": 0.0,
+      "total": 1110.0,
+      "bank_refs": [
+        "10491"
+      ],
+      "amount_paid": 1110.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Thistlewood_TPC-58606.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1019",
+      "vendor_name": "Thistlewood Pallet and Crate",
+      "invoice_number": "TPC-58606",
+      "invoice_date": "2026-11-26",
+      "po_number": "PO-10575",
+      "subtotal": 690.0,
+      "tax": 0.0,
+      "total": 690.0,
+      "bank_refs": [
+        "2017032540"
+      ],
+      "amount_paid": 690.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "DUPLICATE_INVOICE"
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/Tidewater_TFS-37123.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1003",
+      "vendor_name": "Tidewater Freight Solutions",
+      "invoice_number": "TFS-37123",
+      "invoice_date": "2026-11-14",
+      "po_number": "PO-10569",
+      "subtotal": 1878.0,
+      "tax": 0.0,
+      "total": 1878.0,
+      "bank_refs": [
+        "6858011313"
+      ],
+      "amount_paid": 1878.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "AMOUNT_MISMATCH_PO"
+      ],
+      "notes": [
+        "Billed 1,878.00 before tax against PO PO-10569 for 1,730.00 (+148.00)."
+      ],
+      "review": []
+    },
+    {
+      "source": "inbox/Tidewater_TFS-37130.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1003",
+      "vendor_name": "Tidewater Freight Solutions",
+      "invoice_number": "TFS-37130",
+      "invoice_date": "2026-12-17",
+      "po_number": "PO-10591",
+      "subtotal": 4875.0,
+      "tax": 0.0,
+      "total": 4875.0,
+      "bank_refs": [],
+      "amount_paid": 0.0,
+      "status": "OPEN_UNPAID",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/VVStudio_VV-26-24502.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1020",
+      "vendor_name": "V&V Studio",
+      "invoice_number": "VV-26-24502",
+      "invoice_date": "2026-11-08",
+      "po_number": "PO-10533",
+      "subtotal": 551.0,
+      "tax": 0.0,
+      "total": 551.0,
+      "bank_refs": [
+        "7261285951"
+      ],
+      "amount_paid": 551.0,
+      "status": "RECONCILED",
+      "exceptions": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "source": "inbox/VVStudio_VV-26-24515.pdf",
+      "source_type": "pdf",
+      "read_mode": "model",
+      "confidence": "high",
+      "vendor_id": "V-1020",
+      "vendor_name": "V&V Studio",
+      "invoice_number": "VV-26-24515",
+      "invoice_date": "2026-11-10",
+      "po_number": null,
+      "subtotal": 1262.0,
+      "tax": 0.0,
+      "total": 1262.0,
+      "bank_refs": [
+        "4546658715"
+      ],
+      "amount_paid": 1262.0,
+      "status": "EXCEPTION",
+      "exceptions": [
+        "MISSING_PO"
+      ],
+      "notes": [
+        "No purchase order on the invoice."
+      ],
+      "review": []
+    }
+  ],
+  "payments": [
+    {
+      "bank_ref": "1103817075",
+      "amount": 5700.0,
+      "vendor_id": "V-1009",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55433"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "2755052369",
+      "amount": 4188.0,
+      "vendor_id": "V-1009",
+      "invoice_sources": [
+        "inbox/Pinehollow_PJ-41457_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "10491",
+      "amount": 1110.0,
+      "vendor_id": null,
+      "invoice_sources": [
+        "inbox/Thistlewood_TPC-58604.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "2082413266",
+      "amount": 3315.0,
+      "vendor_id": "V-1003",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55453"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "5973804040",
+      "amount": 3070.0,
+      "vendor_id": "V-1009",
+      "invoice_sources": [
+        "inbox/Pinehollow_PJ-41452.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "7261285951",
+      "amount": 551.0,
+      "vendor_id": "V-1020",
+      "invoice_sources": [
+        "inbox/VVStudio_VV-26-24502.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "4546658715",
+      "amount": 1262.0,
+      "vendor_id": "V-1020",
+      "invoice_sources": [
+        "inbox/VVStudio_VV-26-24515.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "3872150064",
+      "amount": 332.48,
+      "vendor_id": "V-1014",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55459"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "8159488361",
+      "amount": 356.06,
+      "vendor_id": "V-1004",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55447"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "2741855781",
+      "amount": 2150.0,
+      "vendor_id": "V-1014",
+      "invoice_sources": [
+        "inbox/Quillmark_Q058899-1.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "6858011313",
+      "amount": 1878.0,
+      "vendor_id": "V-1003",
+      "invoice_sources": [
+        "inbox/Tidewater_TFS-37123.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "9784861777",
+      "amount": 3581.81,
+      "vendor_id": "V-1014",
+      "invoice_sources": [
+        "inbox/Quillmark_Q058898.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "4491625822",
+      "amount": 4745.46,
+      "vendor_id": "V-1017",
+      "invoice_sources": [
+        "inbox/Saltmarsh_SCP-7941.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "6946915666",
+      "amount": 8276.48,
+      "vendor_id": "V-1014",
+      "invoice_sources": [
+        "inbox/Quillmark_Q058899.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "9949012401",
+      "amount": 284.65,
+      "vendor_id": "V-1020",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55519"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "6385026848",
+      "amount": 1576.0,
+      "vendor_id": "V-1019",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55535"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "2017032540",
+      "amount": 690.0,
+      "vendor_id": "V-1019",
+      "invoice_sources": [
+        "inbox/Thistlewood_TPC-58606.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "8337428150",
+      "amount": 17142.48,
+      "vendor_id": "V-1015",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55516",
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55596",
+        "inbox/Osprey_OPC04962_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "10494",
+      "amount": 1203.74,
+      "vendor_id": null,
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55497"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "1794133473",
+      "amount": 18862.39,
+      "vendor_id": "V-1018",
+      "invoice_sources": [
+        "inbox/Harrowgate_HFW43032.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "7198145255",
+      "amount": 3304.0,
+      "vendor_id": "V-1015",
+      "invoice_sources": [
+        "inbox/Osprey_OPC04952_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "8640184633",
+      "amount": 2652.32,
+      "vendor_id": "V-1018",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55479"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "2780376842",
+      "amount": 3349.21,
+      "vendor_id": "V-1004",
+      "invoice_sources": [
+        "inbox/Juniper_JA-54449.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "3696305412",
+      "amount": 918.6,
+      "vendor_id": "V-1016",
+      "invoice_sources": [],
+      "status": "UNMATCHED_PAYMENT",
+      "note": null
+    },
+    {
+      "bank_ref": "7452904920",
+      "amount": 995.15,
+      "vendor_id": "V-1013",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55512"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "6731716226",
+      "amount": 4390.68,
+      "vendor_id": "V-1017",
+      "invoice_sources": [
+        "inbox/Saltmarsh_SCP-7948_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "10497",
+      "amount": 690.0,
+      "vendor_id": null,
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55579"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "3460748163",
+      "amount": 4320.77,
+      "vendor_id": "V-1016",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55544"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "8530754766",
+      "amount": 1491.24,
+      "vendor_id": "V-1015",
+      "invoice_sources": [
+        "LedgerLoop_AP_Invoices_Export_2027-01-02.csv#LL-55568"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "9895382463",
+      "amount": 4408.15,
+      "vendor_id": "V-1004",
+      "invoice_sources": [
+        "inbox/Juniper_JA-54445.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "9689052152",
+      "amount": 1735.0,
+      "vendor_id": "V-1013",
+      "invoice_sources": [
+        "inbox/Fernhaven_FTM-26-16700.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "3163650795",
+      "amount": 2935.0,
+      "vendor_id": "V-1013",
+      "invoice_sources": [
+        "inbox/Fernhaven_FTM-26-16714_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    },
+    {
+      "bank_ref": "8537216003",
+      "amount": 5199.04,
+      "vendor_id": "V-1016",
+      "invoice_sources": [
+        "inbox/Brambleton_BES-011184_scan.pdf"
+      ],
+      "status": "MATCHED",
+      "note": null
+    }
+  ]
+}

@@ -4,6 +4,7 @@
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55115",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1006",
       "vendor_name": "Kestrel Print Studio",
       "invoice_number": "19296",
@@ -18,12 +19,14 @@
       "amount_paid": 4982.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55134",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1008",
       "vendor_name": "Lumen Ridge Lighting Co.",
       "invoice_number": "LRL49880",
@@ -38,12 +41,14 @@
       "amount_paid": 1769.02,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55138",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1001",
       "vendor_name": "Bristlecone Packaging Co.",
       "invoice_number": "BPC-25280",
@@ -56,12 +61,14 @@
       "amount_paid": 0.0,
       "status": "OPEN_UNPAID",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55149",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1011",
       "vendor_name": "Marigold Catering",
       "invoice_number": "MCG62261",
@@ -79,13 +86,15 @@
         "MISSING_PO"
       ],
       "notes": [
-        "No matching purchase order in ProcureHub."
-      ]
+        "No purchase order on the invoice."
+      ],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55155",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1010",
       "vendor_name": "Cobalt Bay Software",
       "invoice_number": "CBS-2026-2274",
@@ -100,12 +109,14 @@
       "amount_paid": 3750.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55167",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1007",
       "vendor_name": "Ironvale Fasteners Corp.",
       "invoice_number": "IVF-56804",
@@ -120,12 +131,14 @@
       "amount_paid": 790.97,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55178",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1003",
       "vendor_name": "Tidewater Freight Solutions",
       "invoice_number": "TFS-65403-R",
@@ -144,14 +157,16 @@
         "DUPLICATE_PAYMENT"
       ],
       "notes": [
-        "Same vendor and amount as invoice TFS-65403; looks like a reissue.",
-        "Both TFS-65403 and TFS-65403-R were paid; one payment should be recovered."
-      ]
+        "Same vendor and amount as invoice TFS-65403 (inbox/Tidewater_TFS-65403.pdf); treat as a duplicate, do not pay.",
+        "Both were paid (8778374086 and 5960557854); recover 744.00."
+      ],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55182",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1012",
       "vendor_name": "Stonebrook Logistics",
       "invoice_number": "SBL-13705",
@@ -166,12 +181,14 @@
       "amount_paid": 3735.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55200",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1001",
       "vendor_name": "Bristlecone Packaging Company",
       "invoice_number": "BPC-25278",
@@ -186,12 +203,14 @@
       "amount_paid": 1848.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55219",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1009",
       "vendor_name": "Pinehollow Janitorial",
       "invoice_number": "PJ-25104",
@@ -210,12 +229,14 @@
       ],
       "notes": [
         "Paid 4,000.00 of 8,000.00; 4,000.00 still owed."
-      ]
+      ],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55230",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1008",
       "vendor_name": "Lumen Ridge Lighting",
       "invoice_number": "LRL49877",
@@ -230,12 +251,14 @@
       "amount_paid": 660.19,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55247",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1002",
       "vendor_name": "HALVORSEN INDUSTRIAL SUPPLY, LLC",
       "invoice_number": "HIS007442",
@@ -250,12 +273,14 @@
       "amount_paid": 3131.45,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55252",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1009",
       "vendor_name": "Pinehollow Janitorial Services",
       "invoice_number": "PJ-25108",
@@ -270,12 +295,14 @@
       "amount_paid": 8550.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55256",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1006",
       "vendor_name": "Kestrel Print Studio",
       "invoice_number": "19297",
@@ -290,12 +317,14 @@
       "amount_paid": 382.02,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55263",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1007",
       "vendor_name": "Ironvale Fasteners Corp.",
       "invoice_number": "IVF-56812",
@@ -310,12 +339,14 @@
       "amount_paid": 877.68,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55271",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1005",
       "vendor_name": "Redfern Electrical Components Inc",
       "invoice_number": "RE-082350",
@@ -333,13 +364,15 @@
         "AMOUNT_MISMATCH_PO"
       ],
       "notes": [
-        "Billed 1,085.10 before tax against a PO for 1,045.70 (+39.40)."
-      ]
+        "Billed 1,085.10 before tax against PO PO-10455 for 1,045.70 (+39.40)."
+      ],
+      "review": []
     },
     {
       "source": "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55278",
       "source_type": "ap_export",
       "read_mode": "csv",
+      "confidence": "high",
       "vendor_id": "V-1004",
       "vendor_name": "Juniper & Ash",
       "invoice_number": "JA-39236",
@@ -354,12 +387,14 @@
       "amount_paid": 3694.18,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Bristlecone_BPC-25277.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1001",
       "vendor_name": "Bristlecone Packaging Company",
       "invoice_number": "BPC-25277",
@@ -374,12 +409,14 @@
       "amount_paid": 3181.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Cobalt_CBS-2026-2279.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1010",
       "vendor_name": "Cobalt Bay Software",
       "invoice_number": "CBS-2026-2279",
@@ -392,12 +429,14 @@
       "amount_paid": 0.0,
       "status": "OPEN_UNPAID",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Cobalt_CBS-2026-2282.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1010",
       "vendor_name": "Cobalt Bay Software",
       "invoice_number": "CBS-2026-2282",
@@ -412,12 +451,14 @@
       "amount_paid": 7245.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/HALVORSEN_HIS007446.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1002",
       "vendor_name": "Halvorsen Industrial Supply, LLC",
       "invoice_number": "HIS007446",
@@ -435,13 +476,15 @@
         "AMOUNT_MISMATCH_PO"
       ],
       "notes": [
-        "Billed 1,394.50 before tax against a PO for 1,179.75 (+214.75)."
-      ]
+        "Billed 1,394.50 before tax against PO PO-10451 for 1,179.75 (+214.75)."
+      ],
+      "review": []
     },
     {
       "source": "inbox/HALVORSEN_HIS007450_scan.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "medium",
       "vendor_id": "V-1002",
       "vendor_name": "Halvorsen Industrial Supply, LLC",
       "invoice_number": "HIS007450",
@@ -460,12 +503,14 @@
       ],
       "notes": [
         "Paid 1,518.31 of 2,530.52; 1,012.21 still owed."
-      ]
+      ],
+      "review": []
     },
     {
       "source": "inbox/IRONVALE_IVF-56797.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1007",
       "vendor_name": "Ironvale Fasteners Corporation",
       "invoice_number": "IVF-56797",
@@ -480,12 +525,14 @@
       "amount_paid": 1332.63,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/IRONVALE_IVF-56810.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1007",
       "vendor_name": "Ironvale Fasteners Corporation",
       "invoice_number": "IVF-56810",
@@ -500,12 +547,14 @@
       "amount_paid": 1091.06,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Juniper_JA-39241.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1004",
       "vendor_name": "Juniper & Ash",
       "invoice_number": "JA-39241",
@@ -520,12 +569,14 @@
       "amount_paid": 2906.44,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Juniper_JA-39244_scan.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "medium",
       "vendor_id": "V-1004",
       "vendor_name": "Juniper & Ash",
       "invoice_number": "JA-39244",
@@ -543,13 +594,15 @@
         "MISSING_PO"
       ],
       "notes": [
-        "No matching purchase order in ProcureHub."
-      ]
+        "No purchase order on the invoice."
+      ],
+      "review": []
     },
     {
       "source": "inbox/Kestrel_19297-R.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1006",
       "vendor_name": "Kestrel Print Studio",
       "invoice_number": "19297-R",
@@ -565,13 +618,15 @@
         "DUPLICATE_INVOICE"
       ],
       "notes": [
-        "Same vendor and amount as invoice 19297; looks like a reissue."
-      ]
+        "Same vendor and amount as invoice 19297 (LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55256); treat as a duplicate, do not pay."
+      ],
+      "review": []
     },
     {
       "source": "inbox/Kestrel_19302.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1006",
       "vendor_name": "Kestrel Print Studio",
       "invoice_number": "19302",
@@ -589,13 +644,15 @@
         "MISSING_PO"
       ],
       "notes": [
-        "No matching purchase order in ProcureHub."
-      ]
+        "No purchase order on the invoice."
+      ],
+      "review": []
     },
     {
       "source": "inbox/Lumen_LRL49885.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1008",
       "vendor_name": "Lumen Ridge Lighting Co.",
       "invoice_number": "LRL49885",
@@ -608,12 +665,14 @@
       "amount_paid": 0.0,
       "status": "OPEN_UNPAID",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Marigold_MCG62251.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1011",
       "vendor_name": "Marigold Catering",
       "invoice_number": "MCG62251",
@@ -628,12 +687,14 @@
       "amount_paid": 2830.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Marigold_MCG62254.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1011",
       "vendor_name": "Marigold Catering",
       "invoice_number": "MCG62254",
@@ -652,12 +713,14 @@
       ],
       "notes": [
         "Paid 1,877.50 of 3,755.00; 1,877.50 still owed."
-      ]
+      ],
+      "review": []
     },
     {
       "source": "inbox/Pinehollow_PJ-25103.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1009",
       "vendor_name": "Pinehollow Janitorial",
       "invoice_number": "PJ-25103",
@@ -672,12 +735,14 @@
       "amount_paid": 5700.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Redfern_RE-082348.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1005",
       "vendor_name": "Redfern Electrical Components Inc",
       "invoice_number": "RE-082348",
@@ -692,12 +757,14 @@
       "amount_paid": 1526.33,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Redfern_RE-082349.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1005",
       "vendor_name": "Redfern Electrical Components Inc",
       "invoice_number": "RE-082349",
@@ -712,12 +779,14 @@
       "amount_paid": 2507.5,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Stonebrook_SBL-13710_scan.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "medium",
       "vendor_id": "V-1012",
       "vendor_name": "Stonebrook Logistics, Inc.",
       "invoice_number": "SBL-13710",
@@ -735,13 +804,15 @@
         "AMOUNT_MISMATCH_PO"
       ],
       "notes": [
-        "Billed 4,395.00 before tax against a PO for 3,615.00 (+780.00)."
-      ]
+        "Billed 4,395.00 before tax against PO PO-10458 for 3,615.00 (+780.00)."
+      ],
+      "review": []
     },
     {
       "source": "inbox/Stonebrook_SBL-13714.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1012",
       "vendor_name": "Stonebrook Logistics, Inc.",
       "invoice_number": "SBL-13714",
@@ -756,12 +827,14 @@
       "amount_paid": 960.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Tidewater_TFS-65401.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1003",
       "vendor_name": "Tidewater Freight Solutions",
       "invoice_number": "TFS-65401",
@@ -776,12 +849,14 @@
       "amount_paid": 475.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Tidewater_TFS-65403.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "high",
       "vendor_id": "V-1003",
       "vendor_name": "Tidewater Freight Solutions",
       "invoice_number": "TFS-65403",
@@ -798,12 +873,14 @@
       "exceptions": [
         "DUPLICATE_INVOICE"
       ],
-      "notes": []
+      "notes": [],
+      "review": []
     },
     {
       "source": "inbox/Tidewater_TFS-65406_scan.pdf",
       "source_type": "pdf",
-      "read_mode": "claude",
+      "read_mode": "model",
+      "confidence": "medium",
       "vendor_id": "V-1003",
       "vendor_name": "Tidewater Freight Solutions",
       "invoice_number": "TFS-65406",
@@ -818,7 +895,8 @@
       "amount_paid": 1240.0,
       "status": "RECONCILED",
       "exceptions": [],
-      "notes": []
+      "notes": [],
+      "review": []
     }
   ],
   "payments": [
@@ -829,7 +907,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55115"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "3483990597",
@@ -838,7 +917,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55149"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "1413535078",
@@ -847,7 +927,8 @@
       "invoice_sources": [
         "inbox/Marigold_MCG62251.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "9349978353",
@@ -856,7 +937,8 @@
       "invoice_sources": [
         "inbox/Kestrel_19302.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8778374086",
@@ -865,7 +947,8 @@
       "invoice_sources": [
         "inbox/Tidewater_TFS-65403.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "6877518962",
@@ -874,7 +957,8 @@
       "invoice_sources": [
         "inbox/Tidewater_TFS-65406_scan.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "5960557854",
@@ -883,7 +967,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55178"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "3301331153",
@@ -892,7 +977,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55134"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "4084727588",
@@ -901,7 +987,8 @@
       "invoice_sources": [
         "inbox/Juniper_JA-39241.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "2446173062",
@@ -910,7 +997,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55219"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "7340070545",
@@ -919,7 +1007,8 @@
       "invoice_sources": [
         "inbox/Marigold_MCG62254.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "6101327987",
@@ -928,7 +1017,8 @@
       "invoice_sources": [
         "inbox/Cobalt_CBS-2026-2282.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "7900936575",
@@ -937,7 +1027,8 @@
       "invoice_sources": [
         "inbox/Bristlecone_BPC-25277.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "5774365313",
@@ -946,7 +1037,8 @@
       "invoice_sources": [
         "inbox/Stonebrook_SBL-13714.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "7682258494",
@@ -955,7 +1047,8 @@
       "invoice_sources": [
         "inbox/Tidewater_TFS-65401.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "1000470208",
@@ -964,7 +1057,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55155"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "5578464595",
@@ -973,7 +1067,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55252"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "9402839870",
@@ -982,7 +1077,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55256"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "5779661422",
@@ -991,7 +1087,8 @@
       "invoice_sources": [
         "inbox/Pinehollow_PJ-25103.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "4016785244",
@@ -1000,14 +1097,16 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55182"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8945676000",
       "amount": 612.4,
       "vendor_id": "V-1004",
       "invoice_sources": [],
-      "status": "UNMATCHED_PAYMENT"
+      "status": "UNMATCHED_PAYMENT",
+      "note": null
     },
     {
       "bank_ref": "5245135044",
@@ -1016,7 +1115,8 @@
       "invoice_sources": [
         "inbox/IRONVALE_IVF-56797.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "10472",
@@ -1025,7 +1125,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55200"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "10474",
@@ -1034,7 +1135,8 @@
       "invoice_sources": [
         "inbox/Redfern_RE-082349.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "6497243068",
@@ -1043,7 +1145,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55230"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "5725549596",
@@ -1052,7 +1155,8 @@
       "invoice_sources": [
         "inbox/Stonebrook_SBL-13710_scan.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "2904072831",
@@ -1061,7 +1165,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55247"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "6216634026",
@@ -1070,7 +1175,8 @@
       "invoice_sources": [
         "inbox/HALVORSEN_HIS007450_scan.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "1025356751",
@@ -1081,7 +1187,8 @@
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55263",
         "inbox/IRONVALE_IVF-56810.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8666001391",
@@ -1090,7 +1197,8 @@
       "invoice_sources": [
         "inbox/Juniper_JA-39244_scan.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8224044834",
@@ -1099,7 +1207,8 @@
       "invoice_sources": [
         "inbox/HALVORSEN_HIS007446.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "7168515955",
@@ -1108,14 +1217,16 @@
       "invoice_sources": [
         "inbox/Redfern_RE-082348.pdf"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8989911891",
       "amount": 4180.0,
       "vendor_id": "V-1008",
       "invoice_sources": [],
-      "status": "UNMATCHED_PAYMENT"
+      "status": "UNMATCHED_PAYMENT",
+      "note": null
     },
     {
       "bank_ref": "7709393634",
@@ -1124,7 +1235,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55271"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     },
     {
       "bank_ref": "8073523536",
@@ -1133,7 +1245,8 @@
       "invoice_sources": [
         "LedgerLoop_AP_Invoices_Export_2026-11-01.csv#LL-55278"
       ],
-      "status": "MATCHED"
+      "status": "MATCHED",
+      "note": null
     }
   ]
 }
