@@ -1,0 +1,16 @@
+{
+  "score": 100.0,
+  "metrics": {
+    "extraction": 1.0,
+    "extraction_clean": 1.0,
+    "extraction_scanned": 1.0,
+    "status": 1.0,
+    "exceptions": 1.0,
+    "exception_precision": 1.0,
+    "exception_recall": 1.0,
+    "payment_matching": 1.0,
+    "unmatched_payments": 1.0,
+    "traceable_numbers": 1.0
+  },
+  "judge": null
+}
