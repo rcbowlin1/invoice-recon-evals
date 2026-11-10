@@ -2,7 +2,7 @@
 
     python agent/reconcile.py --extractor rules  --out runs/v1   # OCR + regex baseline, no model
     python agent/reconcile.py --extractor claude --out runs/v2   # Claude reads the invoices (API)
-    python agent/reconcile.py --extractor precomputed --reads runs/v2/claude_reads.json --out runs/v2
+    python agent/reconcile.py --extractor precomputed --reads runs/v2/reads.json --out runs/v2
 
 Design: a model may help *read* documents; code owns every match, every number
 and every status. Explanations are generated from the facts the code found.

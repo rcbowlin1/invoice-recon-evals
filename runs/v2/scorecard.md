@@ -1,4 +1,4 @@
-# Scorecard: runs/other
+# Scorecard: runs/v2
 
 **Overall: 100.0 / 100**
 
