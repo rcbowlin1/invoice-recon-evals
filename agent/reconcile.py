@@ -1,7 +1,8 @@
 """Invoice reconciliation agent.
 
     python agent/reconcile.py --extractor rules  --out runs/v1   # OCR + regex baseline, no model
-    python agent/reconcile.py --extractor claude --out runs/v2   # Claude reads the invoices
+    python agent/reconcile.py --extractor claude --out runs/v2   # Claude reads the invoices (API)
+    python agent/reconcile.py --extractor precomputed --reads runs/v2/claude_reads.json --out runs/v2
 
 Design: a model may help *read* documents; code owns every match, every number
 and every status. Explanations are generated from the facts the code found.
@@ -148,7 +149,16 @@ def extract_claude(path, model):
     return data
 
 
-def load_invoices(extractor, model):
+def extract_precomputed(path, reads):
+    """Reads produced earlier by a Claude agent that saw only the page images."""
+    r = dict(reads[path.name])
+    for k in ("subtotal", "tax", "total"):
+        r[k] = num(r.get(k))
+    r["read_mode"] = "claude"
+    return r
+
+
+def load_invoices(extractor, model, reads=None):
     out = []
     for r in csv.DictReader(open(AP_FILE)):
         out.append({"source": f"{AP_FILE.name}#{r['Document ID']}", "source_type": "ap_export",
@@ -157,7 +167,12 @@ def load_invoices(extractor, model):
                     "subtotal": num(r["Net Amount"]), "tax": num(r["Tax Amount"]), "total": num(r["Gross Amount"]),
                     "read_mode": "csv"})
     for pdf in sorted((DATA / "inbox").glob("*.pdf")):
-        fields = extract_rules(pdf) if extractor == "rules" else extract_claude(pdf, model)
+        if extractor == "rules":
+            fields = extract_rules(pdf)
+        elif extractor == "precomputed":
+            fields = extract_precomputed(pdf, reads)
+        else:
+            fields = extract_claude(pdf, model)
         fields.update({"source": f"inbox/{pdf.name}", "source_type": "pdf"})
         out.append(fields)
     return out
@@ -265,12 +280,13 @@ def reconcile(invoices, pos, vendors, bank):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--extractor", choices=["rules", "claude"], default="rules")
+    ap.add_argument("--extractor", choices=["rules", "claude", "precomputed"], default="rules")
+    ap.add_argument("--reads", help="JSON of precomputed reads, keyed by PDF filename")
     ap.add_argument("--model", default="claude-sonnet-5-5")
     ap.add_argument("--out", default="runs/v1")
     a = ap.parse_args()
     pos, vendors = load_pos()
-    invoices, payments = reconcile(load_invoices(a.extractor, a.model), pos, vendors, load_bank())
+    invoices, payments = reconcile(load_invoices(a.extractor, a.model, json.load(open(a.reads)) if a.reads else None), pos, vendors, load_bank())
     out = ROOT / a.out
     out.mkdir(parents=True, exist_ok=True)
     keep = ["source", "source_type", "read_mode", "vendor_id"] + FIELDS + ["bank_refs", "amount_paid", "status",
