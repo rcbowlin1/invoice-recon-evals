@@ -2,3 +2,8 @@ __pycache__/
 .DS_Store
 holdout/blind/*.png
 holdout/blind/*.zip
+
+# Holdout solution stays sealed in holdout/SOLUTION.zip (unzip only to score)
+holdout/answer_key/
+holdout/generator/
+holdout/blind/blind_map.tsv

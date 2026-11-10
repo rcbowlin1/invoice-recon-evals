@@ -37,6 +37,8 @@ Any v3 needs a **fresh holdout** before it gets a score, because this holdout ha
 3. **Blind reads:** the invoice page images went to a different model under shuffled names, with no answers and no filenames.
 4. **Scored once:** each version was scored once on the holdout and reported as-is.
 
+**Running this yourself:** the holdout answer key and generator are sealed in `holdout/SOLUTION.zip`. Build and freeze your agent on the dev set (`data/`), then unzip and score on the holdout. If your build step reads the answers, the score is contaminated. That is the whole trap this project is about, so the answers are zipped to keep an agent crawling the repo from ingesting them by accident.
+
 ## Limits
 
 - **40 invoices is small.** One error moves a check by 2 to 3 points, so treat the results as directional.
@@ -85,8 +87,9 @@ The scorecard also reports how many invoices the agent decided on its own and ho
 python agent/reconcile_v1.py --data holdout/data --out runs/holdout-v1
 # v2 (model reads of the inbox PDFs, keyed by filename)
 python agent/reconcile_v2.py --data holdout/data --reads runs/holdout-v2/reads.json --out runs/holdout-v2
-# score
+# score (unzip the sealed answers first, only after your agent is frozen)
+unzip -o holdout/SOLUTION.zip -d holdout
 python evals/score.py runs/holdout-v2 --key holdout/answer_key/answer_key.json
 ```
 
-Regenerate the data: `python generator/generate.py` (dev) and `python holdout/generator/generate_holdout.py` (holdout). Both are deterministic. Each run folder holds `report.json` and `scorecard.md`.
+Regenerate the dev data: `python generator/generate.py` (deterministic). The holdout generator ships inside `holdout/SOLUTION.zip`, since it spells out every holdout scenario. Each run folder holds `report.json` and `scorecard.md`.
